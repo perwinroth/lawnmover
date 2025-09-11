@@ -1,0 +1,129 @@
+name: Deploy GitHub Pages (scrape + build)
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * 1' # Every Monday 03:00 UTC
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml icalendar aiohttp
+
+      - name: Fetch municipalities from Wikidata
+        run: |
+          python tools/fetch_municipalities_wikidata.py || true
+
+      - name: Run ETL (OSM + sources + enrich)
+        env:
+          OVERPASS_ENDPOINT: https://overpass.kumi.systems/api/interpreter
+          # Optional extra sources; set real endpoints later in repo secrets or env
+          HAV_BADPLATSER_URL: ""
+          MUNICIPAL_DATASET_URL: ""
+          MUNICIPAL_DATASET_TYPE: auto
+          MUNICIPAL_ACTIVITY: outdoor
+          # CKAN discovery across municipal portals (comma-separated list)
+          CKAN_PORTALS: "" # add portals as available (e.g., https://data.goteborg.se if CKAN)
+          # Keywords to search for datasets, comma-separated
+          CKAN_KEYWORDS: "utegym,badplats,motionsspår,elljusspår,leder,vandring"
+          # JSON mapping keyword -> activity
+          CKAN_ACTIVITY_MAP: '{"utegym":"gym","badplats":"swimming","motionsspår":"running","elljusspår":"running","leder":"hiking","vandring":"hiking"}'
+          # Max resources per keyword per portal to ingest
+          CKAN_MAX_PER_KEYWORD: "2"
+          # Extra direct dataset URLs (CSV/JSON/GeoJSON), comma-separated
+          EXTRA_DATASET_URLS: ""
+          EXTRA_ACTIVITY: outdoor
+          # Optional municipal crawl (respect robots, limited)
+          ENABLE_MUNICIPAL_CRAWL: "1"
+          MUNI_LIST_URL: "data/municipalities.csv"
+          CRAWL_MAX_SITES: "5"
+          CRAWL_MAX_PAGES: "20"
+          CRAWL_MAX_DEPTH: "2"
+          ENRICH_MAX: "150"
+        run: |
+          set -e
+          for i in 1 2 3; do
+            python -m etl.run_etl && break || sleep 30
+          done
+
+      - name: Validate GeoJSON
+        run: |
+          python - <<'PY'
+          import json, sys
+          with open('data/friluft.geojson','r',encoding='utf-8') as f:
+              d=json.load(f)
+          feats=d.get('features',[])
+          if not feats:
+              print('No features scraped', file=sys.stderr)
+              sys.exit(1)
+          print(f'Features: {len(feats)}')
+          PY
+
+      - name: Generate standalone list page
+        run: python tools/build_list.py || true
+
+      - name: Generate place pages + sitemap/robots
+        env:
+          BASE_URL: https://perwinroth.github.io/friluft
+        run: python tools/build_site.py || true
+
+      - name: Generate events page
+        run: python tools/build_events.py || true
+
+      - name: Prepare static site
+        run: |
+          rm -rf dist
+          mkdir -p dist
+          cp -r web dist/web
+          cp -r data dist/data
+          # Root SEO files
+          [ -f robots.txt ] && cp robots.txt dist/ || true
+          [ -f sitemap.xml ] && cp sitemap.xml dist/ || true
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,37 @@
+import { NextResponse } from 'next/server'
+import { prisma } from '../../../lib/prisma'
+import fs from 'node:fs/promises'
+import path from 'node:path'
+
+export async function POST(req: Request) {
+  const body = await req.json().catch(()=>({}))
+  const title = String(body.title||'').trim()
+  const website = String(body.website||'').trim()
+  const priceFrom = body.price_from ? parseInt(body.price_from, 10) : null
+  const categories = String(body.categories||'').trim()
+  const description = String(body.description||'').trim()
+
+  if (!title || !website) {
+    return NextResponse.json({ ok:false, error:'missing_fields' }, { status: 400 })
+  }
+
+  try {
+    // Try DB first
+    const rec = await prisma.listingProposal.create({ data: { title, website, priceFrom: priceFrom||undefined, categories, description } })
+    return NextResponse.json({ ok:true, id: rec.id })
+  } catch (e) {
+    // Fallback to JSON file
+    try {
+      const file = path.join(process.cwd(), '..', 'data', 'proposals.json')
+      let list: any[] = []
+      try { list = JSON.parse(await fs.readFile(file, 'utf-8')) } catch {}
+      const rec = { id: Date.now().toString(36), createdAt: new Date().toISOString(), title, website, priceFrom, categories, description }
+      list.push(rec)
+      await fs.writeFile(file, JSON.stringify(list, null, 2), 'utf-8')
+      return NextResponse.json({ ok:true, id: rec.id, mode:'file' })
+    } catch (e2) {
+      return NextResponse.json({ ok:false, error:'persist_failed' }, { status: 500 })
+    }
+  }
+}
+
