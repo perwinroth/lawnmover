@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Friluft – Upptäck och boka friluftsupplevelser',
-  description: 'Sök bland platser och upplevelser för friluftsliv i Sverige – vandring, paddling, camping m.m.'
+  title: 'Lawnmover – Återförsäljare av robotgräsklippare',
+  description: 'Sök och hitta butiker i Sverige som säljer robotgräsklippare.'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -38,9 +38,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <header>
           <nav className="nav">
-            <a className="brand" href="/">Friluft</a>
+            <a className="brand" href="/">Lawnmover</a>
             <a href="/search">Sök</a>
-            <a href="/events">Evenemang</a>
+            
             <div className="spacer" />
             <a href="/dashboard" className="btn">För leverantörer</a>
           </nav>

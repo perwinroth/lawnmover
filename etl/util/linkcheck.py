@@ -29,7 +29,7 @@ async def _check_one(session: aiohttp.ClientSession, url: str, timeout: int = 10
 
 async def _run(urls: List[str], concurrency: int = 10) -> List[Dict[str, Any]]:
     connector = aiohttp.TCPConnector(limit=concurrency)
-    headers = {"User-Agent": "FriluftLinkCheck/0.1 (+https://github.com/perwinroth/friluft)"}
+    headers = {"User-Agent": "LawnmoverLinkCheck/0.1 (+https://github.com/perwinroth/lawnmover)"}
     async with aiohttp.ClientSession(connector=connector, headers=headers) as session:
         tasks = [asyncio.create_task(_check_one(session, u)) for u in urls]
         return await asyncio.gather(*tasks)
@@ -39,4 +39,3 @@ def check_links(urls: List[str], concurrency: int = 10) -> List[Dict[str, Any]]:
     if not urls:
         return []
     return asyncio.run(_run(urls, concurrency=concurrency))
-

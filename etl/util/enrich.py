@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 def _fetch(url: str, timeout: int = 12) -> str:
     try:
         r = requests.get(url, timeout=timeout, headers={
-            'User-Agent': 'FriluftBot/0.1 (+https://github.com/perwinroth/friluft)'
+            'User-Agent': 'LawnmoverBot/0.1 (+https://github.com/perwinroth/lawnmover)'
         })
         r.raise_for_status()
         return r.text
@@ -80,4 +80,3 @@ def enrich_places_opengraph(places: List[Dict[str, Any]], max_items: int = 200) 
         if phone:
             p.setdefault('contact', {})
             p['contact']['phone'] = p['contact'].get('phone') or phone
-

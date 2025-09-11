@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { loadPlaces, slugify } from '../lib/data'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const base = 'https://perwinroth.github.io/friluft'
+  const base = 'https://lawnmover.vercel.app'
   const urls: MetadataRoute.Sitemap = [
     { url: `${base}/web/`, lastModified: new Date() },
     { url: `${base}/web/list.html`, lastModified: new Date() },
@@ -15,4 +15,3 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   } catch {}
   return urls
 }
-

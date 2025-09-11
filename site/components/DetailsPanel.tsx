@@ -11,8 +11,8 @@ export default function DetailsPanel(_: Props) {
     const handler = (e: any) => {
       const d = e.detail || {}; setItem(d.props || null); setCoords({lat:d.lat, lon:d.lon})
     }
-    window.addEventListener('friluft:select', handler as any)
-    return () => window.removeEventListener('friluft:select', handler as any)
+    window.addEventListener('lawnmover:select', handler as any)
+    return () => window.removeEventListener('lawnmover:select', handler as any)
   },[])
 
   if (!item) return (
@@ -55,4 +55,3 @@ export default function DetailsPanel(_: Props) {
     </div>
   )
 }
-
