@@ -31,8 +31,8 @@ CATEGORY_DEFS: Dict[str, List[str]] = {
         '["shop"="electronics"]',
         '["shop"="department_store"]',
         # Known Swedish chains (brand or name match)
-        '["brand"~"(?i)^(Bauhaus|Hornbach|Byggmax|Jula|Granngården|Elgiganten|MediaMarkt|NetOnNet|Elon|Plantagen|XL-Bygg|XL Bygg|Beijer|Woody|Stark)$"]',
-        '["name"~"(?i)Bauhaus|Hornbach|Byggmax|Jula|Granngården|Elgiganten|Media ?Markt|Net ?On ?Net|Elon|Plantagen|XL[- ]?Bygg|Beijer|Woody|Stark"]',
+        '["brand"~"^(Bauhaus|Hornbach|Byggmax|Jula|Granngården|Elgiganten|MediaMarkt|NetOnNet|Elon|Plantagen|XL-Bygg|XL Bygg|Beijer|Woody|Stark)$", i]',
+        '["name"~"Bauhaus|Hornbach|Byggmax|Jula|Granngården|Elgiganten|Media ?Markt|Net ?On ?Net|Elon|Plantagen|XL[- ]?Bygg|Beijer|Woody|Stark", i]',
     ],
 }
 
