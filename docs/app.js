@@ -15,7 +15,9 @@ function iconFor(cat, size=12) {
 
 // State
 let ACTIVE_CATS = new Set(Object.keys(CATEGORY_COLORS));
-let ITEMS = new Map(); // id -> {id, name, link, cats, lat, lng}
+let ITEMS = new Map(); // id -> {id, name, link, cats, lat, lng, siteKey}
+let DUP_KEY_COUNT = new Map(); // siteKey -> count
+let SHOW_DUPES_ONLY = false;
 let MARKER_BY_ID = new Map(); // id -> marker
 let THE_MAP = null;
 let CLUSTER = null; // marker cluster group
@@ -120,11 +122,8 @@ async function loadData(map) {
     applyFilter();
     renderList();
   } catch (e) {
+    // Avoid showing intrusive error messages on the page
     console.error('Failed to load data', e);
-    const el = document.createElement('div');
-    el.className = 'error';
-    el.textContent = 'Kunde inte ladda data. Har du kört skripten?';
-    document.getElementById('controls').appendChild(el);
   }
 }
 
@@ -167,13 +166,19 @@ window.addEventListener('load', () => {
   const navList = document.getElementById('navList');
   if (navMap) navMap.addEventListener('click', (e) => { e.preventDefault(); document.body.classList.remove('show-list'); document.body.classList.add('show-map'); });
   if (navList) navList.addEventListener('click', (e) => { e.preventDefault(); document.body.classList.remove('show-map'); document.body.classList.add('show-list'); });
+  addDuplicateToggleUI();
 });
 
 function buildItems(geo) {
   ITEMS = new Map();
+  DUP_KEY_COUNT = new Map();
   (geo.features || []).forEach((f) => {
     const [lng, lat] = f.geometry.coordinates;
     const p = f.properties || {};
+    const siteKey = normalizeSiteKey(p.link || p.osm_url);
+    if (siteKey) {
+      DUP_KEY_COUNT.set(siteKey, (DUP_KEY_COUNT.get(siteKey) || 0) + 1);
+    }
     ITEMS.set(p.id, {
       id: p.id,
       name: p.name || '(namnlös)'
@@ -182,6 +187,7 @@ function buildItems(geo) {
       lat, lng,
       open_now: p.open_now,
       link_ok: p.link_ok,
+      siteKey,
     });
   });
 }
@@ -194,6 +200,9 @@ function renderList() {
   let items = Array.from(ITEMS.values()).filter((it) =>
     it.cats.some((c) => active.has(c)) && (!q || (it.name || '').toLowerCase().includes(q))
   );
+  if (SHOW_DUPES_ONLY) {
+    items = items.filter(it => it.siteKey && DUP_KEY_COUNT.get(it.siteKey) > 1);
+  }
   if (USER_POS) {
     items.forEach((it) => { it._dist = distanceKm(USER_POS.lat, USER_POS.lon, it.lat, it.lng); });
     items.sort((a, b) => (a._dist || Infinity) - (b._dist || Infinity));
@@ -201,7 +210,7 @@ function renderList() {
     items.sort((a, b) => a.name.localeCompare(b.name, 'sv'));
   }
   const html = [
-    `<div class="meta" style="padding:4px 8px; color:#666;">${items.length} platser${USER_POS ? ' – sorterat efter avstånd' : ''}</div>`
+    `<div class="meta" style="padding:4px 8px; color:#666;">${items.length} platser${USER_POS ? ' – sorterat efter avstånd' : ''}${SHOW_DUPES_ONLY ? ' – visar dubletter' : ''}</div>`
   ];
   items.forEach((it) => {
     const slug = slugify(it.id);
@@ -215,8 +224,10 @@ function renderList() {
     const dist = (USER_POS && typeof it._dist === 'number') ? ` <small style="color:#64748b">${it._dist.toFixed(1)} km</small>` : '';
     const openBadge = (typeof it.open_now === 'boolean') ? `<span class=\"badge ${it.open_now ? 'ok' : 'warn'}\">${it.open_now ? 'Öppet' : 'Stängt'}</span>` : '';
     const linkBadge = (typeof it.link_ok === 'boolean') ? `<span class=\"badge ${it.link_ok ? 'ok' : 'err'}\">${it.link_ok ? 'Länk OK' : 'Länk fel'}</span>` : '';
+    const host = it.siteKey ? escapeHTML(it.siteKey.replace(/^https?:\\/\\//,'').replace(/^www\\./,'')) : '';
+    const dupBadge = (it.siteKey && DUP_KEY_COUNT.get(it.siteKey) > 1) ? '<span class=\\"badge\\" style=\\"background:#fde68a;color:#92400e\\">Dublett</span>' : '';
     html.push(`
-      <div class=\"list-item\" data-id=\"${it.id}\">\n        <div class=\"name\">${it.cats && it.cats[0] ? iconFor(it.cats[0],14) : ''}<a href=\"places/${slug}.html\">${nameHtml}</a>${dist} ${openBadge} ${linkBadge} ${it.bookable ? '<span class=\\"badge\\" style=\\"background:#0f766e\\">Boka</span>' : ''}</div>\n        <div class=\"meta\">${badges} ${safeLink}</div>\n      </div>
+      <div class=\"list-item\" data-id=\"${it.id}\">\n        <div class=\"name\">${it.cats && it.cats[0] ? iconFor(it.cats[0],14) : ''}<a href=\"places/${slug}.html\">${nameHtml}</a>${dist} ${openBadge} ${linkBadge} ${dupBadge} ${it.bookable ? '<span class=\\"badge\\" style=\\"background:#0f766e\\">Boka</span>' : ''}</div>\n        <div class=\"meta\">${badges} ${safeLink} ${host?('• '+host):''}</div>\n      </div>
     `);
   });
   listEl.innerHTML = html.join('\n');
@@ -356,4 +367,36 @@ function slugify(s) {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/-+/g, '-')
     .replace(/^-|-$/g, '') || 'plats';
+}
+
+function normalizeSiteKey(url) {
+  try {
+    if (!url) return '';
+    const u = new URL(url);
+    u.hash = '';
+    u.search = '';
+    return u.toString().replace(/\/$/, '').toLowerCase();
+  } catch {
+    return String(url || '').trim().toLowerCase();
+  }
+}
+
+function addDuplicateToggleUI() {
+  const controls = document.getElementById('controls');
+  if (!controls) return;
+  const wrap = document.createElement('div');
+  wrap.style.margin = '8px 0';
+  const label = document.createElement('label');
+  label.style.display = 'inline-flex';
+  label.style.alignItems = 'center';
+  label.style.gap = '8px';
+  const cb = document.createElement('input');
+  cb.type = 'checkbox';
+  cb.addEventListener('change', ()=> { SHOW_DUPES_ONLY = cb.checked; applyFilter(); renderList(); });
+  const text = document.createElement('span');
+  text.textContent = 'Visa dubletter (samma webbadress)';
+  label.appendChild(cb);
+  label.appendChild(text);
+  wrap.appendChild(label);
+  controls.appendChild(wrap);
 }
