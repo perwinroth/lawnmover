@@ -159,9 +159,8 @@ function applyFilter() {
 document.addEventListener('DOMContentLoaded', initMap);
 // Default view classes
 window.addEventListener('load', () => {
-  if (window.innerWidth <= 900) {
-    document.body.classList.add('show-list');
-  }
+  // Default to list view on all screens
+  document.body.classList.add('show-list');
   const navMap = document.getElementById('navMap');
   const navList = document.getElementById('navList');
   if (navMap) navMap.addEventListener('click', (e) => { e.preventDefault(); document.body.classList.remove('show-list'); document.body.classList.add('show-map'); });
