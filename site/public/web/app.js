@@ -176,6 +176,7 @@ function buildItems(geo) {
     const [lng, lat] = f.geometry.coordinates;
     const p = f.properties || {};
     const siteKey = normalizeSiteKey(p.link || p.osm_url);
+    const host = siteKey ? hostFromUrl(siteKey) : '';
     if (siteKey) {
       DUP_KEY_COUNT.set(siteKey, (DUP_KEY_COUNT.get(siteKey) || 0) + 1);
     }
@@ -188,6 +189,8 @@ function buildItems(geo) {
       open_now: p.open_now,
       link_ok: p.link_ok,
       siteKey,
+      host,
+      address: p.address || ''
     });
   });
 }
@@ -197,9 +200,17 @@ function renderList() {
   if (!listEl) return;
   const active = ACTIVE_CATS;
   const q = SEARCH_QUERY;
-  let items = Array.from(ITEMS.values()).filter((it) =>
-    it.cats.some((c) => active.has(c)) && (!q || (it.name || '').toLowerCase().includes(q))
-  );
+  let items = Array.from(ITEMS.values()).filter((it) => {
+    if (!it.cats.some((c) => active.has(c))) return false;
+    if (!q) return true;
+    const ql = q;
+    return (
+      (it.name || '').toLowerCase().includes(ql) ||
+      (it.host || '').toLowerCase().includes(ql) ||
+      (it.link || '').toLowerCase().includes(ql) ||
+      (it.address || '').toLowerCase().includes(ql)
+    );
+  });
   if (SHOW_DUPES_ONLY) {
     items = items.filter(it => it.siteKey && DUP_KEY_COUNT.get(it.siteKey) > 1);
   }
@@ -224,7 +235,7 @@ function renderList() {
     const dist = (USER_POS && typeof it._dist === 'number') ? ` <small style="color:#64748b">${it._dist.toFixed(1)} km</small>` : '';
     const openBadge = (typeof it.open_now === 'boolean') ? `<span class=\"badge ${it.open_now ? 'ok' : 'warn'}\">${it.open_now ? 'Öppet' : 'Stängt'}</span>` : '';
     const linkBadge = (typeof it.link_ok === 'boolean') ? `<span class=\"badge ${it.link_ok ? 'ok' : 'err'}\">${it.link_ok ? 'Länk OK' : 'Länk fel'}</span>` : '';
-    const host = it.siteKey ? escapeHTML(it.siteKey.replace(/^https?:\\/\\//,'').replace(/^www\\./,'')) : '';
+    const host = it.host ? escapeHTML(it.host) : '';
     const dupBadge = (it.siteKey && DUP_KEY_COUNT.get(it.siteKey) > 1) ? '<span class=\\"badge\\" style=\\"background:#fde68a;color:#92400e\\">Dublett</span>' : '';
     html.push(`
       <div class=\"list-item\" data-id=\"${it.id}\">\n        <div class=\"name\">${it.cats && it.cats[0] ? iconFor(it.cats[0],14) : ''}<a href=\"places/${slug}.html\">${nameHtml}</a>${dist} ${openBadge} ${linkBadge} ${dupBadge} ${it.bookable ? '<span class=\\"badge\\" style=\\"background:#0f766e\\">Boka</span>' : ''}</div>\n        <div class=\"meta\">${badges} ${safeLink} ${host?('• '+host):''}</div>\n      </div>
@@ -378,6 +389,17 @@ function normalizeSiteKey(url) {
     return u.toString().replace(/\/$/, '').toLowerCase();
   } catch {
     return String(url || '').trim().toLowerCase();
+  }
+}
+
+function hostFromUrl(url) {
+  try {
+    return new URL(url).host.replace(/^www\./, '');
+  } catch {
+    return String(url || '')
+      .replace(/^https?:\/\//,'')
+      .replace(/^www\./,'')
+      .split('/')[0];
   }
 }
 
