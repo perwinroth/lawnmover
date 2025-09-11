@@ -39,9 +39,9 @@ export default function Map({ query = '', cats = [], height = '60vh' }: Props) {
         map.setView([lat, lon], zoom || Math.max(map.getZoom(), 12));
       }
     };
-    window.addEventListener('friluft:focus', handler);
+    window.addEventListener('lawnmover:focus', handler);
     return () => {
-      window.removeEventListener('friluft:focus', handler);
+      window.removeEventListener('lawnmover:focus', handler);
     };
   },[]);
 
@@ -67,7 +67,7 @@ export default function Map({ query = '', cats = [], height = '60vh' }: Props) {
           marker.bindPopup(`<strong>${name}</strong><br/><a href="${link}" target="_blank" rel="noopener">Länk</a>`);
           marker.on('click', () => {
             if (typeof window !== 'undefined') {
-              window.dispatchEvent(new CustomEvent('friluft:select', { detail: { props: p, lat, lon } }))
+              window.dispatchEvent(new CustomEvent('lawnmover:select', { detail: { props: p, lat, lon } }))
             }
           });
           // @ts-ignore

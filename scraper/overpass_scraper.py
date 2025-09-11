@@ -128,6 +128,18 @@ def to_feature(el: Dict[str, Any], categories: List[str], include_social: bool =
     name = choose_name(tags)
     fallback_link = osm_url(el)
 
+    # Address assembly from OSM addr:* tags
+    addr_street = tags.get('addr:street')
+    addr_hnr = tags.get('addr:housenumber')
+    addr_postcode = tags.get('addr:postcode')
+    addr_city = tags.get('addr:city') or tags.get('addr:town') or tags.get('addr:village')
+    addr_parts = []
+    if addr_street:
+        addr_parts.append(addr_street + (f" {addr_hnr}" if addr_hnr else ""))
+    if addr_postcode or addr_city:
+        addr_parts.append(" ".join([p for p in [addr_postcode, addr_city] if p]))
+    address = ", ".join([p for p in addr_parts if p])
+
     props = {
         "id": f"{el['type']}/{el['id']}",
         "name": name if name and name != "(namnlös)" else (
@@ -136,6 +148,13 @@ def to_feature(el: Dict[str, Any], categories: List[str], include_social: bool =
         "categories": sorted(set(categories)),
         "link": website,
         "osm_url": fallback_link,
+        "address": address,
+        "addr": {
+            "street": addr_street,
+            "housenumber": addr_hnr,
+            "postcode": addr_postcode,
+            "city": addr_city,
+        },
         "tags": tags,
     }
     return {

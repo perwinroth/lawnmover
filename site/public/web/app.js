@@ -1,43 +1,13 @@
 const CATEGORY_COLORS = {
-  // Lawn mower sellers
-  robot_mower_seller: '#2c7fb8',
-  // Legacy categories (kept for compatibility)
-  national_park: '#2ca25f',
-  nature_reserve: '#99d8c9',
-  camp_site: '#fb6a4a',
-  shelter: '#ef3b2c',
-  viewpoint: '#8856a7',
-  picnic_site: '#9ebcda',
-  slipway: '#3182bd',
-  canoe_kayak: '#41b6c4',
-  boat_rental: '#0868ac',
+  robot_mower_seller: '#2c7fb8'
 };
 
 const CATEGORY_LABELS = {
-  robot_mower_seller: 'Återförsäljare robotgräsklippare',
-  national_park: 'Nationalpark',
-  nature_reserve: 'Naturreservat',
-  camp_site: 'Camping',
-  shelter: 'Vindskydd / Shelter',
-  viewpoint: 'Utsiktsplats',
-  picnic_site: 'Picknick',
-  slipway: 'Båtramp / Slip',
-  canoe_kayak: 'Kanot / Kajak',
-  boat_rental: 'Båt/Kanot-uthyrning',
+  robot_mower_seller: 'Återförsäljare robotgräsklippare'
 };
 
 function iconFor(cat, size=12) {
-  const map = {
-    national_park: 'hiking',
-    nature_reserve: 'hiking',
-    camp_site: 'camp_site',
-    shelter: 'shelter',
-    viewpoint: 'viewpoint',
-    picnic_site: 'picnic_site',
-    slipway: 'slipway',
-    canoe_kayak: 'canoe_kayak',
-    boat_rental: 'boat_rental',
-  };
+  const map = { robot_mower_seller: 'hiking' };
   const key = map[cat] || 'hiking';
   const src = `icons/${key}.svg`;
   return `<img src="${src}" alt="" width="${size}" height="${size}" style="vertical-align:middle; margin-right:6px"/>`;

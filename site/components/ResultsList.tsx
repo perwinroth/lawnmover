@@ -12,6 +12,7 @@ export default function ResultsList({ query = '', cats = [] }: Props) {
         id: f.properties?.id,
         name: f.properties?.name,
         link: f.properties?.link || f.properties?.osm_url,
+        address: f.properties?.address,
         cats: f.properties?.categories || [],
         bookable: !!f.properties?.bookable,
         open_now: f.properties?.open_now,
@@ -44,11 +45,7 @@ export default function ResultsList({ query = '', cats = [] }: Props) {
               {it.bookable ? <span className="badge" style={{background:'#0f766e', color:'#fff'}}>Boka</span> : null}
             </div>
             <div style={{color:'#64748b', fontSize:12, margin:'6px 0'}}>
-              {(it.cats||[]).map((c:string)=> (
-                <span key={c} className="badge" style={{marginRight:6, background:'#eef2ff', color:'#3730a3', display:'inline-flex', alignItems:'center', gap:6}}>
-                  {iconFor(c, 12)} {c}
-                </span>
-              ))}
+              {it.address ? <span>{it.address}</span> : null}
             </div>
             <div style={{display:'flex', gap:10, alignItems:'center', flexWrap:'wrap'}}>
               {it.link ? <a className="btn" href={it.link} target="_blank" rel="noopener">{it.bookable ? 'Boka' : 'Länk'}</a> : null}
@@ -79,25 +76,16 @@ function slugify(s: string) {
 function iconFor(cat?: string, size = 16) {
   if (!cat) return null;
   const map: Record<string, string> = {
-    hiking: '/icons/hiking.svg',
-    canoe_kayak: '/icons/canoe_kayak.svg',
-    camp_site: '/icons/camp_site.svg',
-    shelter: '/icons/shelter.svg',
-    viewpoint: '/icons/viewpoint.svg',
-    picnic_site: '/icons/picnic_site.svg',
-    slipway: '/icons/slipway.svg',
-    boat_rental: '/icons/boat_rental.svg',
-    national_park: '/icons/hiking.svg',
-    nature_reserve: '/icons/hiking.svg',
+    robot_mower_seller: '/icons/hiking.svg'
   };
-  const src = map[cat] || map.hiking;
+  const src = map[cat] || '/icons/hiking.svg';
   return <img src={src} alt="" width={size} height={size} style={{display:'inline-block'}} />
 }
 
 function focusOnMap(lat?: number, lon?: number) {
   if (lat == null || lon == null) return;
   if (typeof window !== 'undefined') {
-    window.dispatchEvent(new CustomEvent('friluft:focus', { detail: { lat, lon, zoom: 13 } }))
+    window.dispatchEvent(new CustomEvent('lawnmover:focus', { detail: { lat, lon, zoom: 13 } }))
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 }

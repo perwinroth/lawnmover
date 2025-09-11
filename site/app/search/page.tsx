@@ -9,8 +9,7 @@ const LeafletMap = dynamic(()=> import('../../components/Map'), { ssr: false });
 export default function SearchPage() {
   const [query, setQuery] = useState('');
   const [cats, setCats] = useState<Record<string, boolean>>({
-    national_park:true, nature_reserve:true, camp_site:true, shelter:true,
-    viewpoint:true, picnic_site:true, slipway:true, canoe_kayak:true, boat_rental:true
+    robot_mower_seller: true,
   });
   const [show, setShow] = useState<'map'|'list'|'both'>('list');
 
@@ -31,7 +30,7 @@ export default function SearchPage() {
   return (
     <div className="container">
       <head>
-        <link rel="canonical" href="https://perwinroth.github.io/friluft/search" />
+        <link rel="canonical" href="/search" />
       </head>
       <div className="pill" style={{position:'sticky', top:8, zIndex:10}}>
         <span>🔍</span>
@@ -39,7 +38,9 @@ export default function SearchPage() {
       </div>
       <div className="chips" style={{margin:'8px 0 12px'}}>
         {Object.keys(cats).map(k=> (
-          <button key={k} className="chip" onClick={()=> setCats(s=>({...s,[k]:!s[k]}))} style={{background: cats[k]?'#fff':'#f5f5f5'}}>{k}</button>
+          <button key={k} className="chip" onClick={()=> setCats(s=>({...s,[k]:!s[k]}))} style={{background: cats[k]?'#fff':'#f5f5f5'}}>
+            {k === 'robot_mower_seller' ? 'robotgräsklippare' : k}
+          </button>
         ))}
       </div>
       <div className="grid">
