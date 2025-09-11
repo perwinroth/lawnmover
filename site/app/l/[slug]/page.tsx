@@ -1,16 +1,12 @@
 import { notFound } from 'next/navigation'
 import { loadPlaces, slugify } from '../../../lib/data'
-
-export async function generateStaticParams() {
-  const places = await loadPlaces();
-  return places.slice(0, 500).map((p)=> ({ slug: slugify(String(p.id || p.name)) }));
-}
+export const dynamic = 'force-dynamic';
 
 export default async function ListingPage({ params }: { params: { slug: string } }) {
   const places = await loadPlaces();
   const match = places.find(p => slugify(String(p.id || p.name)) === params.slug);
   if (!match) return notFound();
-  const title = `${match.name} – Friluft`;
+  const title = `${match.name} – Lawnmover`;
   const desc = match.description || `Aktivitet: ${(match.categories||[]).join(', ')}`;
   const lat = match.lat; const lon = match.lon;
   const website = match.website;
@@ -19,7 +15,7 @@ export default async function ListingPage({ params }: { params: { slug: string }
     '@type': 'Product',
     'name': match.name,
     'description': desc,
-    'brand': 'Friluft',
+    'brand': 'Lawnmover',
     'offers': {
       '@type': 'Offer',
       'availability': 'https://schema.org/InStock',
@@ -39,7 +35,7 @@ export default async function ListingPage({ params }: { params: { slug: string }
       <head>
         <title>{title}</title>
         <meta name="description" content={desc} />
-        <link rel="canonical" href={`https://perwinroth.github.io/friluft/l/${params.slug}`} />
+        <link rel="canonical" href={`/l/${params.slug}`} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(jsonLd)}} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(breadcrumbs)}} />
       </head>
