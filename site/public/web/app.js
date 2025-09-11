@@ -1,4 +1,7 @@
 const CATEGORY_COLORS = {
+  // Lawn mower sellers
+  robot_mower_seller: '#2c7fb8',
+  // Legacy categories (kept for compatibility)
   national_park: '#2ca25f',
   nature_reserve: '#99d8c9',
   camp_site: '#fb6a4a',
@@ -11,6 +14,7 @@ const CATEGORY_COLORS = {
 };
 
 const CATEGORY_LABELS = {
+  robot_mower_seller: 'Återförsäljare robotgräsklippare',
   national_park: 'Nationalpark',
   nature_reserve: 'Naturreservat',
   camp_site: 'Camping',
@@ -137,7 +141,7 @@ function popupHtml(props) {
 
 async function loadData(map) {
   try {
-    const res = await fetch('../data/friluft.geojson');
+    const res = await fetch('../data/lawnmover.geojson');
     const geo = await res.json();
     buildItems(geo);
     renderData(map, geo);
