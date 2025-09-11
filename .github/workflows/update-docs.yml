@@ -1,0 +1,27 @@
+name: Update Docs
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync static web to docs
+        run: |
+          rm -rf docs
+          mkdir -p docs/data
+          cp -a site/public/web/. docs/
+          if [ -f data/lawnmover.geojson ]; then cp -f data/lawnmover.geojson docs/data/; fi
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "CI: update docs from source"
+
