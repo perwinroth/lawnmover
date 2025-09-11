@@ -1,25 +1,23 @@
 import { NextResponse } from 'next/server'
 import fs from 'node:fs/promises'
 import path from 'node:path'
-import { sql } from '../../../lib/db'
+import { prisma } from '../../../lib/prisma'
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url)
   const kind = searchParams.get('kind') || 'geojson'
   const base = path.join(process.cwd(), '..', 'data')
   const file = kind === 'places' ? 'places.json' : kind === 'events' ? 'events.json' : 'lawnmover.geojson'
-  // 0) Try database first (sellers table)
+  // 0) Try database first (sellers table via Prisma)
   if (kind === 'geojson') {
     try {
-      const { rows } = await sql`
-        SELECT id, name, website, address, lat, lon, city, postcode, street, housenumber
-        FROM sellers
-        LIMIT 20000
-      `
+      const rows = await prisma.seller.findMany({
+        take: 20000,
+      })
       if (rows && rows.length) {
         const features = rows.filter(r=> r.lat != null && r.lon != null).map((r:any, i:number)=> ({
           type: 'Feature',
-          geometry: { type: 'Point', coordinates: [Number(r.lon), Number(r.lat)] },
+          geometry: { type: 'Point', coordinates: [Number(r.lon!), Number(r.lat!)] },
           properties: {
             id: r.id || `seller/${i}`,
             name: r.name,

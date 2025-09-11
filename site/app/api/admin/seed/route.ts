@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import { sql } from '../../../../lib/db'
+import { prisma } from '../../../../lib/prisma'
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url)
@@ -7,21 +7,23 @@ export async function GET(req: Request) {
   if (!secret || searchParams.get('secret') !== secret) {
     return NextResponse.json({ ok: false, error: 'forbidden' }, { status: 403 })
   }
-  // Create table if not exists
-  await sql`
-    CREATE TABLE IF NOT EXISTS sellers (
-      id text PRIMARY KEY,
-      name text NOT NULL,
-      website text,
-      address text,
-      city text,
-      postcode text,
-      street text,
-      housenumber text,
-      lat double precision,
-      lon double precision
-    )
-  `
+  // Ensure table exists (raw SQL for first-time setup)
+  try {
+    await prisma.$executeRawUnsafe(`
+      CREATE TABLE IF NOT EXISTS "Seller" (
+        id text PRIMARY KEY,
+        name text NOT NULL,
+        website text,
+        address text,
+        city text,
+        postcode text,
+        street text,
+        housenumber text,
+        lat double precision,
+        lon double precision
+      )
+    `)
+  } catch (_) {}
   // Fetch data from GitHub raw
   const url = 'https://raw.githubusercontent.com/perwinroth/lawnmover/main/data/lawnmover.geojson'
   const res = await fetch(url, { cache: 'no-store' })
@@ -42,25 +44,13 @@ export async function GET(req: Request) {
     const lat = coords[1] != null ? Number(coords[1]) : null
     const lon = coords[0] != null ? Number(coords[0]) : null
     try {
-      await sql`
-        INSERT INTO sellers (id, name, website, address, city, postcode, street, housenumber, lat, lon)
-        VALUES (${id}, ${name}, ${website}, ${address}, ${addr.city||null}, ${addr.postcode||null}, ${addr.street||null}, ${addr.housenumber||null}, ${lat}, ${lon})
-        ON CONFLICT (id) DO UPDATE SET
-          name = EXCLUDED.name,
-          website = EXCLUDED.website,
-          address = EXCLUDED.address,
-          city = EXCLUDED.city,
-          postcode = EXCLUDED.postcode,
-          street = EXCLUDED.street,
-          housenumber = EXCLUDED.housenumber,
-          lat = EXCLUDED.lat,
-          lon = EXCLUDED.lon
-      `
+      await prisma.seller.upsert({
+        where: { id },
+        update: { name, website, address, city: addr.city||null, postcode: addr.postcode||null, street: addr.street||null, housenumber: addr.housenumber||null, lat, lon },
+        create: { id, name, website: website||null, address, city: addr.city||null, postcode: addr.postcode||null, street: addr.street||null, housenumber: addr.housenumber||null, lat, lon },
+      })
       inserted++
-    } catch (e) {
-      // skip bad rows
-    }
+    } catch (e) { /* skip */ }
   }
   return NextResponse.json({ ok: true, inserted })
 }
-

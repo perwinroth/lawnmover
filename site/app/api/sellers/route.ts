@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import { sql } from '../../../lib/db'
+import { prisma } from '../../../lib/prisma'
 
 function toCSV(rows: any[]): string {
   const header = ['id','name','website','address','street','housenumber','postcode','city','lat','lon']
@@ -22,11 +22,7 @@ export async function GET(req: Request) {
 
   // Try DB first
   try {
-    const { rows } = await sql`
-      SELECT id, name, website, address, city, postcode, street, housenumber, lat, lon
-      FROM sellers
-      LIMIT 20000
-    `
+    const rows = await prisma.seller.findMany({ take: 20000 })
     if (format === 'csv') {
       return new NextResponse(toCSV(rows), { headers: { 'content-type': 'text/csv; charset=utf-8' } })
     }
@@ -65,4 +61,3 @@ export async function GET(req: Request) {
     }
   }
 }
-

@@ -3,17 +3,20 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
-  url      = env("DATABASE_URL")
+  provider = "postgresql"
+  url      = env("PRISMA_DATABASE_URL")
 }
 
-model ListingProposal {
-  id          String   @id @default(cuid())
-  createdAt   DateTime @default(now())
-  title       String
-  website     String
-  priceFrom   Int?
-  categories  String?
-  description String?
+model Seller {
+  id          String  @id
+  name        String
+  website     String?
+  address     String?
+  city        String?
+  postcode    String?
+  street      String?
+  housenumber String?
+  lat         Float?
+  lon         Float?
 }
 
