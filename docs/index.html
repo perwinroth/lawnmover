@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lawnmover – Återförsäljare av robotgräsklippare i Sverige</title>
+    <meta name="description" content="Interaktiv karta över återförsäljare av robotgräsklippare i Sverige. Filtrera, sök och hitta butiker med webbplats." />
+    <link rel="canonical" href="/web/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lawnmover – Återförsäljare av robotgräsklippare i Sverige" />
+    <meta property="og:description" content="Karta och sök för återförsäljare av robotgräsklippare i Sverige." />
+    <meta property="og:url" content="/web/" />
+    <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Lawnmover" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+    />
+  </head>
+  <body>
+    <header class="topbar">
+      <nav class="nav">
+        <a class="brand" href="/web/">Lawnmover</a>
+        <a href="#" id="navMap">Karta</a>
+        <a href="#" id="navList">Lista</a>
+        
+        <span class="spacer"></span>
+        <a href="https://github.com/perwinroth/lawnmover" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </header>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Lawnmover",
+      "url": "/web/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "/web/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <div id="controls">
+      <div class="searchbox">
+        <div class="pill">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="#5c5c5c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <input id="searchInput" type="text" placeholder="Sök plats eller aktivitet" autocomplete="off" />
+          <button id="clearSearch" class="clear-btn" title="Rensa" aria-label="Rensa sökfält" hidden>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 6L6 18M6 6l12 12" stroke="#8a8a8a" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+          <button id="nearbyBtn" class="nearby-btn" title="Nära mig" aria-label="Sortera efter avstånd">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2v4m0 12v4m10-10h-4M6 12H2m14.95 7.05l-2.83-2.83M9.88 6.83 7.05 4m9.9 0-2.83 2.83M9.88 17.17 7.05 20" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+        <div id="chips" class="chips"></div>
+      </div>
+      <h1>Återförsäljare av robotgräsklippare</h1>
+      <div id="filters"></div>
+      <div id="details" class="details"></div>
+      <div id="list"></div>
+    </div>
+    <div id="map"></div>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script src="app.js"></script>
+  </body>
+  </html>
