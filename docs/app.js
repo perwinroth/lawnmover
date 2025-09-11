@@ -22,6 +22,7 @@ let MARKER_BY_ID = new Map(); // id -> marker
 let THE_MAP = null;
 let CLUSTER = null; // marker cluster group
 let ALL_MARKERS = []; // markers for all items
+let USER_POS = null; // default user position (null unless set)
 let SEARCH_QUERY = '';
 
 function initMap() {
@@ -112,10 +113,12 @@ function popupHtml(props) {
 }
 
 async function loadData(map) {
+  // Try local data first (for GitHub Pages), then fall back to GitHub Raw
+  const local = 'data/lawnmover.geojson';
+  const remote = 'https://raw.githubusercontent.com/perwinroth/lawnmover/main/data/lawnmover.geojson';
   try {
-    // Prefer GitHub raw so the static site always loads fresh data from main
-    const remote = 'https://raw.githubusercontent.com/perwinroth/lawnmover/main/data/lawnmover.geojson';
-    const res = await fetch(remote);
+    let res = await fetch(local, { cache: 'no-store' });
+    if (!res.ok) res = await fetch(remote, { cache: 'no-store' });
     const geo = await res.json();
     buildItems(geo);
     renderData(map, geo);
