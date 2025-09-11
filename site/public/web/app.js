@@ -141,7 +141,9 @@ function popupHtml(props) {
 
 async function loadData(map) {
   try {
-    const res = await fetch('../data/lawnmover.geojson');
+    // Prefer GitHub raw so the static site always loads fresh data from main
+    const remote = 'https://raw.githubusercontent.com/perwinroth/lawnmover/main/data/lawnmover.geojson';
+    const res = await fetch(remote);
     const geo = await res.json();
     buildItems(geo);
     renderData(map, geo);
