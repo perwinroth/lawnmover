@@ -162,8 +162,20 @@ function applyFilter() {
 document.addEventListener('DOMContentLoaded', initMap);
 // Default view classes
 window.addEventListener('load', () => {
-  // Default to list view on all screens
-  document.body.classList.add('show-list');
+  // Default view via URL param (?view=list|map), default = list
+  try {
+    const params = new URLSearchParams(location.search);
+    const view = (params.get('view') || 'list').toLowerCase();
+    if (view === 'map') {
+      document.body.classList.add('show-map');
+      document.body.classList.remove('show-list');
+    } else {
+      document.body.classList.add('show-list');
+      document.body.classList.remove('show-map');
+    }
+  } catch {
+    document.body.classList.add('show-list');
+  }
   const navMap = document.getElementById('navMap');
   const navList = document.getElementById('navList');
   if (navMap) navMap.addEventListener('click', (e) => { e.preventDefault(); document.body.classList.remove('show-list'); document.body.classList.add('show-map'); });
