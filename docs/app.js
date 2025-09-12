@@ -234,13 +234,14 @@ function renderList() {
       .map((c) => `<span class="badge" style="background:${CATEGORY_COLORS[c]};display:inline-flex;align-items:center;gap:6px">${iconFor(c,12)}${CATEGORY_LABELS[c] || c}</span>`)
       .join(' ');
     const safeLink = it.link ? `<a href="${it.link}" target="_blank" rel="noopener">Länk</a>` : '';
+    const href = it.link || '#';
     const dist = (USER_POS && typeof it._dist === 'number') ? ` <small style="color:#64748b">${it._dist.toFixed(1)} km</small>` : '';
     const openBadge = (typeof it.open_now === 'boolean') ? `<span class=\"badge ${it.open_now ? 'ok' : 'warn'}\">${it.open_now ? 'Öppet' : 'Stängt'}</span>` : '';
     const linkBadge = (typeof it.link_ok === 'boolean') ? `<span class=\"badge ${it.link_ok ? 'ok' : 'err'}\">${it.link_ok ? 'Länk OK' : 'Länk fel'}</span>` : '';
     const host = it.host ? escapeHTML(it.host) : '';
     const dupBadge = (it.siteKey && DUP_KEY_COUNT.get(it.siteKey) > 1) ? '<span class=\\"badge\\" style=\\"background:#fde68a;color:#92400e\\">Dublett</span>' : '';
     html.push(`
-      <div class=\"list-item\" data-id=\"${it.id}\">\n        <div class=\"name\">${it.cats && it.cats[0] ? iconFor(it.cats[0],14) : ''}<a href=\"places/${slug}.html\">${nameHtml}</a>${dist} ${openBadge} ${linkBadge} ${dupBadge} ${it.bookable ? '<span class=\\"badge\\" style=\\"background:#0f766e\\">Boka</span>' : ''}</div>\n        <div class=\"meta\">${badges} ${safeLink} ${host?('• '+host):''}</div>\n      </div>
+      <div class=\"list-item\" data-id=\"${it.id}\">\n        <div class=\"name\">${it.cats && it.cats[0] ? iconFor(it.cats[0],14) : ''}<a href=\"${href}\" target=\"_blank\" rel=\"noopener\">${nameHtml}</a>${dist} ${openBadge} ${linkBadge} ${dupBadge} ${it.bookable ? '<span class=\\"badge\\" style=\\"background:#0f766e\\">Boka</span>' : ''}</div>\n        <div class=\"meta\">${badges} ${safeLink} ${host?('• '+host):''}</div>\n      </div>
     `);
   });
   listEl.innerHTML = html.join('\n');
