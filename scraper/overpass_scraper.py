@@ -19,20 +19,18 @@ DEFAULT_ENDPOINTS = [
 # Category definitions with Overpass tag selectors.
 # Each entry is a list of tag expressions to match; we will query node/way/relation for each.
 CATEGORY_DEFS: Dict[str, List[str]] = {
-    # Retail categories and known chains likely to sell robot lawnmowers in Sweden
-    # Note: We intentionally cast a wider net via shop types and chain brands.
-    # Filtering to require a website happens later in to_feature().
+    # Robot lawnmower retailers in Sweden — tighter filters to reduce false positives.
     "robot_mower_seller": [
-        # Broad retail categories
-        '["shop"="doityourself"]',
-        '["shop"="hardware"]',
-        '["shop"="garden_centre"]',
-        '["shop"="agrarian"]',
-        '["shop"="electronics"]',
-        '["shop"="department_store"]',
-        # Known Swedish chains (brand or name match)
-        '["brand"~"^(Bauhaus|Hornbach|Byggmax|Jula|Granngården|Elgiganten|MediaMarkt|NetOnNet|Elon|Plantagen|XL-Bygg|XL Bygg|Beijer|Woody|Stark)$", i]',
-        '["name"~"Bauhaus|Hornbach|Byggmax|Jula|Granngården|Elgiganten|Media ?Markt|Net ?On ?Net|Elon|Plantagen|XL[- ]?Bygg|Beijer|Woody|Stark", i]',
+        # Core shop types that commonly sell garden machinery
+        '["shop"~"^(doityourself|hardware|garden_centre|agrarian)$"]',
+        # Electronics chains that are known to carry robot lawnmowers
+        '["shop"="electronics"]["brand"~"(Elgiganten|MediaMarkt|NetOnNet|Elon)", i]',
+        # Known DIY/garden chains by name or brand
+        '["shop"]["name"~"(Bauhaus|Hornbach|Byggmax|Jula|Granngården|Plantagen|XL[- ]?Bygg|Beijer|Woody|Stark)", i]',
+        '["shop"]["brand"~"(Bauhaus|Hornbach|Byggmax|Jula|Granngården|Plantagen|XL[- ]?Bygg|Beijer|Woody|Stark)", i]',
+        # Product maker brands appearing as shop brand/name
+        '["shop"]["brand"~"(Husqvarna|STIGA|Robomow|Worx|Gardena|AL-?KO|Yard[ -]?Force|McCulloch|Ambrogio)", i]',
+        '["shop"]["name"~"(Husqvarna|STIGA|Robomow|Worx|Gardena|AL-?KO|Yard[ -]?Force|McCulloch|Ambrogio|robotgräsklippare|robotgrasklippare)", i]',
     ],
 }
 
@@ -110,6 +108,11 @@ def osm_url(el: Dict[str, Any]) -> str:
 
 def to_feature(el: Dict[str, Any], categories: List[str], include_social: bool = True) -> Dict[str, Any]:
     tags = el.get("tags", {})
+    # Exclude obvious false positives by brand/name
+    import re as _re
+    _deny = _re.compile(r"\b(apple|apotek(?:et)?|pharmacy|systembolaget)\b", _re.IGNORECASE)
+    if _deny.search(tags.get('name','')) or _deny.search(tags.get('brand','') or ''):
+        raise ValueError("Denied brand/name")
     website = choose_website(tags, include_social=include_social)
     if not website:
         # Only keep features that have an explicit website/contact URL
