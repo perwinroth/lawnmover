@@ -1,0 +1,506 @@
+id,name,link,osm_url,lat,lon,categories,bookable,link_ok,open_now,street,housenumber,postcode,city,address
+node/293964812,Elgiganten,https://www.elgiganten.se/stores/skane-lan/kristianstad/kristianstad,https://www.openstreetmap.org/node/293964812,56.0216182,14.1189112,robot_mower_seller,,,,,,,,
+node/416102202,Stuvsta Trädgård,http://www.stuvstatradgard.se/,https://www.openstreetmap.org/node/416102202,59.2507654,18.0070734,robot_mower_seller,,,,,,,,
+node/417751797,NetOnNet,https://www.netonnet.se/,https://www.openstreetmap.org/node/417751797,59.1766132,18.1474615,robot_mower_seller,,,,,,,,
+node/440619110,Elgiganten,https://www.elgiganten.se/store/elgiganten-borlange,https://www.openstreetmap.org/node/440619110,60.48053,15.4200859,robot_mower_seller,,,,Norra Backagatan,3A,781 70,Borlänge,"Norra Backagatan 3A, 781 70 Borlänge"
+node/444531182,Jula,https://www.jula.com/,https://www.openstreetmap.org/node/444531182,58.4349736,15.5935698,robot_mower_seller,,,,Norra Svedengatan,11A,582 73,Linköping,"Norra Svedengatan 11A, 582 73 Linköping"
+node/444867453,Furusunds Handelsträdgård,http://www.xn--furusundshandelstrdgrd-i5b0a.se/,https://www.openstreetmap.org/node/444867453,59.662187,18.9105147,robot_mower_seller,,,,,,,,
+node/535250759,Robot Mower Seller – bergdaladesign.se,http://www.bergdaladesign.se,https://www.openstreetmap.org/node/535250759,56.8348847,15.2210716,robot_mower_seller,,,,,,,,
+node/544601309,Jula Borlänge,https://www.jula.se/vara-varuhus/borlange/,https://www.openstreetmap.org/node/544601309,60.4800857,15.4201004,robot_mower_seller,,,,Norra Backagatan,3C,781 70,Borlänge,"Norra Backagatan 3C, 781 70 Borlänge"
+node/590750505,Biltema,https://www.biltema.se/sv/varuhus/borlange/,https://www.openstreetmap.org/node/590750505,60.4794823,15.4152543,robot_mower_seller,,,,Mekanikergatan,6,781 70,Borlänge,"Mekanikergatan 6, 781 70 Borlänge"
+node/626004067,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/node/626004067,55.6512911,13.2280178,robot_mower_seller,,,,,,,,
+node/649150758,Elmsta Färg & Järnhandel,https://www.elmstajarn.se,https://www.openstreetmap.org/node/649150758,59.972426,18.8095417,robot_mower_seller,,,,,,,,
+node/668182302,Clas Ohlson,https://www.clasohlson.se/,https://www.openstreetmap.org/node/668182302,58.4113444,15.6269023,robot_mower_seller,,,,Storgatan,13,582 23,Linköping,"Storgatan 13, 582 23 Linköping"
+node/675916161,Kröns trädgård,https://www.kronstradgard.se,https://www.openstreetmap.org/node/675916161,59.9794655,18.8163897,robot_mower_seller,,,,,,,,
+node/699613480,Elgiganten,https://nya.elgiganten.se/store/elgiganten-kungsgatan,https://www.openstreetmap.org/node/699613480,59.3361565,18.0688344,robot_mower_seller,,,,,,,,
+node/770414603,Granngården,https://www.granngarden.se/,https://www.openstreetmap.org/node/770414603,59.4630887,18.1306603,robot_mower_seller,,,,Hantverkarvägen,1,,,Hantverkarvägen 1
+node/807697101,Brunnsvikens Trädgård & Café,http://www.brunnsvikenstradgard.se,https://www.openstreetmap.org/node/807697101,59.3802579,18.0185703,robot_mower_seller,,,,,,,,
+node/807717363,Elgiganten,https://www.elgiganten.se/,https://www.openstreetmap.org/node/807717363,59.746322,18.6800979,robot_mower_seller,,,,August Strindbergs gata,3,761 46,Norrtälje,"August Strindbergs gata 3, 761 46 Norrtälje"
+node/893968712,STHLM Knit Company,https://sthlmknit.se/,https://www.openstreetmap.org/node/893968712,59.3159419,18.0626882,robot_mower_seller,,,,Maria Prästgårdsgata,17,118 52,Stockholm,"Maria Prästgårdsgata 17, 118 52 Stockholm"
+node/944137976,Klinta kryddor och grönt,http://klintakryddor.se/cafe/,https://www.openstreetmap.org/node/944137976,55.8588414,13.5004735,robot_mower_seller,,,,Snogeröd,660,243 95,Höör,"Snogeröd 660, 243 95 Höör"
+node/974637262,Bauhaus,https://www.bauhaus.se/varuhus/bromma,https://www.openstreetmap.org/node/974637262,59.3541668,17.9616427,robot_mower_seller,,,,Karlsbodavägen,2,,,Karlsbodavägen 2
+node/983277766,Ekastiga Gårdsbutik,https://www.ekastiga.com/,https://www.openstreetmap.org/node/983277766,55.9568436,13.520506,robot_mower_seller,,,,,,,,
+node/1041165780,Cross & Enduro Companiet,http://www.crossendurocompaniet.se,https://www.openstreetmap.org/node/1041165780,57.615078,12.0475815,robot_mower_seller,,,,Gamla Riksvägen,20,,,Gamla Riksvägen 20
+node/1049134050,Butiken,https://www.botaniska.se/besokscentrum/butiken/,https://www.openstreetmap.org/node/1049134050,57.6831481,11.9503023,robot_mower_seller,,,,,,,,
+node/1070429724,Blomsterlandet Norrtälje,https://www.blomsterlandet.se/,https://www.openstreetmap.org/node/1070429724,59.7667757,18.6961362,robot_mower_seller,,,,Baldersgatan,27B,761 50,Norrtälje,"Baldersgatan 27B, 761 50 Norrtälje"
+node/1129803047,Granngården,http://www.granngarden.se/,https://www.openstreetmap.org/node/1129803047,57.8825573,11.9837284,robot_mower_seller,,,,,,,,
+node/1149610297,Clas Ohlson,https://www.clasohlson.se/,https://www.openstreetmap.org/node/1149610297,56.0299497,14.1591413,robot_mower_seller,,,,,,,,
+node/1305254687,Zetas,https://www.zetas.se/,https://www.openstreetmap.org/node/1305254687,59.2757389,17.9247065,robot_mower_seller,,,,Blombacken,2,141 70,Segeltorp,"Blombacken 2, 141 70 Segeltorp"
+node/1305712314,Würth,https://www.wurth.se/butiker/malmo/,https://www.openstreetmap.org/node/1305712314,55.5674899,13.0501798,robot_mower_seller,,,,Hornyxegatan,4,213 76,Malmö,"Hornyxegatan 4, 213 76 Malmö"
+node/1313897534,Verdus veranda,http://www.verdus.se/,https://www.openstreetmap.org/node/1313897534,57.1970085,18.2572728,robot_mower_seller,,,,,,,,
+node/1436169795,Bauhaus,https://www.bauhaus.se,https://www.openstreetmap.org/node/1436169795,59.199556,18.1348408,robot_mower_seller,,,,,,,,
+node/1459372027,Elgiganten,https://www.elgiganten.se/,https://www.openstreetmap.org/node/1459372027,60.1530887,16.1994861,robot_mower_seller,,,,,,,,
+node/1474632595,Jula,https://www.jula.se/,https://www.openstreetmap.org/node/1474632595,59.4611189,18.1319476,robot_mower_seller,,,,,,,,
+node/1479509905,Cheapy lågprisbygg,http://www.cheapy.se/,https://www.openstreetmap.org/node/1479509905,56.2527678,12.9086793,robot_mower_seller,,,,Nordalagatan,2c,262 73,Ängelholm,"Nordalagatan 2c, 262 73 Ängelholm"
+node/1493561788,Tyresö Handelsträdgård,https://www.tyresohandelstradgard.se/,https://www.openstreetmap.org/node/1493561788,59.2365312,18.3077848,robot_mower_seller,,,,,,,,
+node/1501759704,Wirströms,https://wirstroms.se/,https://www.openstreetmap.org/node/1501759704,59.3142352,18.0747575,robot_mower_seller,,,,Folkungagatan,54,,,Folkungagatan 54
+node/1665937897,Tumba Järn & Färg,http://www.tumbajarn.se,https://www.openstreetmap.org/node/1665937897,59.1912307,17.8238591,robot_mower_seller,,,,Olvonvägen,4,14733,,"Olvonvägen 4, 14733"
+node/1670361749,XL-Bygg Mjällby,https://www.xlbygg.se/mjallby/,https://www.openstreetmap.org/node/1670361749,56.0436013,14.6738568,robot_mower_seller,,,,Listervägen,40,29471,,"Listervägen 40, 29471"
+node/1670926939,Motostar,http://www.motostarmx.se,https://www.openstreetmap.org/node/1670926939,55.6376101,13.6888975,robot_mower_seller,,,,,,,,
+node/1674642121,Bauhaus,https://www.bauhaus.se/,https://www.openstreetmap.org/node/1674642121,56.684787,16.3162139,robot_mower_seller,,,,,,,,
+node/1704718096,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/node/1704718096,57.1632425,12.2751551,robot_mower_seller,,,,,,,,
+node/1708914162,Biltema,https://www.biltema.se/varuhus-och-oppettider/malmo,https://www.openstreetmap.org/node/1708914162,55.5498368,12.9939925,robot_mower_seller,,,,Nornegatan,9,215 86,Malmö,"Nornegatan 9, 215 86 Malmö"
+node/1731545513,Plantagen,https://www.plantagen.se/,https://www.openstreetmap.org/node/1731545513,55.5486118,12.9948648,robot_mower_seller,,,,,,,,
+node/1737508695,Dala handelsträdgård,http://www.dalahandelstradgard.se,https://www.openstreetmap.org/node/1737508695,58.2531589,13.7898374,robot_mower_seller,,,,,,52162,Stenstorp,52162 Stenstorp
+node/1838644598,Granngården,https://www.granngarden.se/butiker/falun,https://www.openstreetmap.org/node/1838644598,60.6059057,15.6634452,robot_mower_seller,,,,Trossvägen,8,791 40,Falun,"Trossvägen 8, 791 40 Falun"
+node/1893787298,Clas Ohlson,https://www.clasohlson.se/,https://www.openstreetmap.org/node/1893787298,59.3046763,18.1311779,robot_mower_seller,,,,Siroccogatan,7,131 54,Nacka,"Siroccogatan 7, 131 54 Nacka"
+node/1916000953,XL-Bygg Veberöd,http://www.xlbygg.se/veberod/,https://www.openstreetmap.org/node/1916000953,55.6365602,13.4922277,robot_mower_seller,,,,Södra Järnvägsgatan,3,247 62,Veberöd,"Södra Järnvägsgatan 3, 247 62 Veberöd"
+node/1939724822,Elgiganten,https://www.elgiganten.se/store/elgiganten-linkoping,https://www.openstreetmap.org/node/1939724822,58.4341287,15.6009277,robot_mower_seller,,,,Norra Svedengatan,19,582 73,Linköping,"Norra Svedengatan 19, 582 73 Linköping"
+node/1961981729,Jula,https://www.jula.se/,https://www.openstreetmap.org/node/1961981729,56.0210506,14.1138948,robot_mower_seller,,,,,,,,
+node/1972405972,Biltema,https://www.biltema.se/varuhus-och-oppettider/stockholm-varmdo/,https://www.openstreetmap.org/node/1972405972,59.3123347,18.3860684,robot_mower_seller,,,,,,,,
+node/1982762350,Byggmax,https://www.byggmax.se/butiker/falun,https://www.openstreetmap.org/node/1982762350,60.6062897,15.6208968,robot_mower_seller,,,,Yxhammargatan,5,791 73,Falun,"Yxhammargatan 5, 791 73 Falun"
+node/2061370488,Clas Ohlson,https://jobb.clasohlson.com/locations/butik-goteborg-sisjon,https://www.openstreetmap.org/node/2061370488,57.6402935,11.9528249,robot_mower_seller,,,,Datavägen,15,436 32,Västra Frölunda,"Datavägen 15, 436 32 Västra Frölunda"
+node/2139291971,Würth Yrkesbutik,https://www.wurth.se/butiker/borlange/,https://www.openstreetmap.org/node/2139291971,60.4746788,15.4373313,robot_mower_seller,,,,Hantverkargatan,1A,781 71,Borlänge,"Hantverkargatan 1A, 781 71 Borlänge"
+node/2156455233,Clas Ohlson,https://www.clasohlson.com/,https://www.openstreetmap.org/node/2156455233,59.3332129,18.0618945,robot_mower_seller,,,,,,,,
+node/2269897926,Grutes färg och tapet,https://www.grutes.se,https://www.openstreetmap.org/node/2269897926,59.3387731,18.0975805,robot_mower_seller,,,,,,,,
+node/2292654044,Ronneby Golv,https://www.ronnebygolv.se/,https://www.openstreetmap.org/node/2292654044,56.2188757,15.2703279,robot_mower_seller,,,,,,,,
+node/2334660058,JP Montage,https://www.jpmontage.se/,https://www.openstreetmap.org/node/2334660058,56.2522614,15.2490544,robot_mower_seller,,,,,,,,
+node/2334660065,Plåtslagaren,https://www.platslagaren.com/,https://www.openstreetmap.org/node/2334660065,56.251332,15.2500923,robot_mower_seller,,,,,,,,
+node/2358291941,Jula,https://www.jula.se/,https://www.openstreetmap.org/node/2358291941,57.7395032,12.1313193,robot_mower_seller,,,,Gamla Alingsåsvägen,18,,Partille,"Gamla Alingsåsvägen 18, Partille"
+node/2363186769,Kullbergs Mur och Bygg,http://kullbergsbygg.se/,https://www.openstreetmap.org/node/2363186769,56.2045809,15.2874958,robot_mower_seller,,,,,,,,
+node/2368386716,Järfälla Hardverkstad AB,http://www.jhv.se,https://www.openstreetmap.org/node/2368386716,59.40677,17.8328101,robot_mower_seller,,,,Elektronikhöjden,8,175 43,,"Elektronikhöjden 8, 175 43"
+node/2368394197,HP Etch AB,https://www.hpetch.se/,https://www.openstreetmap.org/node/2368394197,59.4066143,17.8331481,robot_mower_seller,,,,Elektronikhöjden,6,175 43,,"Elektronikhöjden 6, 175 43"
+node/2385497186,Nynäs Trädgårdsbutik,http://www.nynastradgardsbutik.se/,https://www.openstreetmap.org/node/2385497186,58.8072569,17.3656501,robot_mower_seller,,,,,,,,
+node/2408541323,Clas Ohlson,https://www.clasohlson.com/,https://www.openstreetmap.org/node/2408541323,55.5951619,13.0027536,robot_mower_seller,,,,Södra Förstadsgatan,41,211 43,Malmö,"Södra Förstadsgatan 41, 211 43 Malmö"
+node/2415637862,Elgiganten,https://www.elgiganten.se/,https://www.openstreetmap.org/node/2415637862,59.3059168,18.1298434,robot_mower_seller,,,,,,,,
+node/2489328331,Gärdin & Persson,https://www.gardinpersson.se/,https://www.openstreetmap.org/node/2489328331,63.8397407,20.2362356,robot_mower_seller,,,,,,,,
+node/2603240079,Maskinaffär AB B Lundström,https://lundstrommaskin.se/,https://www.openstreetmap.org/node/2603240079,67.8441621,20.2927159,robot_mower_seller,,,,,,,,
+node/2604701351,Beijer byggmaterial Lissma,https://www.beijerbygg.se/,https://www.openstreetmap.org/node/2604701351,59.1796734,18.0892136,robot_mower_seller,,,,,,,,
+node/2619643706,Nords,http://www.nords.se/sv/,https://www.openstreetmap.org/node/2619643706,59.3264155,14.3952253,robot_mower_seller,,,,,,,,
+node/2696667489,Jula,https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.jula.se%2Fvara-varuhus%2Fuddevalla%2F&h=AT153uih5fW_G9qkGn4xj0Jpp8tIk7gpLZ224BbXaGHhXeWJ-bSzixNYeOVnz7F1EYxNrX4gCX6UZlTQY55nUY03_XyEpu8_e3fS7q-wMoSRCN49y5EAja4N2Msm6dtSNJOQHLAQfUxKWCDle1U-9zRNpo1MyHB5cnormg,https://www.openstreetmap.org/node/2696667489,58.3556197,11.8211232,robot_mower_seller,,,,Östra Torpvägen,27,451 76,Uddevalla,"Östra Torpvägen 27, 451 76 Uddevalla"
+node/2852812181,Bålsta Järnhandel AB,https://www.blocket.se/balsta-jarnhandel,https://www.openstreetmap.org/node/2852812181,59.5800402,17.5102209,robot_mower_seller,,,,,,,,
+node/2854787291,Granngården,https://www.granngarden.se/,https://www.openstreetmap.org/node/2854787291,59.7676048,18.6896502,robot_mower_seller,,,,Storstensvägen,1,761 53,Norrtälje,"Storstensvägen 1, 761 53 Norrtälje"
+node/2878112541,Blomsterlandet,https://www.blomsterlandet.se/,https://www.openstreetmap.org/node/2878112541,59.3058737,18.18316,robot_mower_seller,,,,,,,,
+node/2962650227,NetOnNet,https://www.netonnet.se/lagershop/4/stockholmslagsta,https://www.openstreetmap.org/node/2962650227,59.2539953,17.8563163,robot_mower_seller,,,,,,,,
+node/3139242010,Elgiganten,https://www.elgiganten.se/INTERSHOP/web/WFS/store-elgigantenSE-Site/sv_SE/-/SEK/ViewStoreFinder-Start?mapStore=qZoKeQuvXdAAAAEoeYE7Uj8P,https://www.openstreetmap.org/node/3139242010,65.6178083,22.0516827,robot_mower_seller,,,,Betongvägen,2,97345,Luleå,"Betongvägen 2, 97345 Luleå"
+node/3203126029,Hägglunds Industri,http://www.hagglunds-industri.se/,https://www.openstreetmap.org/node/3203126029,65.581793,22.1458251,robot_mower_seller,,,,,,,,
+node/3225938624,Granngården,https://www.granngarden.se/,https://www.openstreetmap.org/node/3225938624,65.6181934,22.0515616,robot_mower_seller,,,,,,,,
+node/3226457661,Herrestads Nygård julgranförsäljning,http://www.herrestadnygard.se/,https://www.openstreetmap.org/node/3226457661,55.4563871,13.8748444,robot_mower_seller,,,,,,,,
+node/3253731665,Beijer Byggmaterial,https://www.beijerbygg.se/privat/sv/stenungsund,https://www.openstreetmap.org/node/3253731665,58.0738521,11.8198239,robot_mower_seller,,,,Strandvägen,31,44431,Stenungsund,"Strandvägen 31, 44431 Stenungsund"
+node/3294847740,Plantagen,https://plantagen.se/se/vara-butiker/sverige/stockholm-enebyberg,https://www.openstreetmap.org/node/3294847740,59.4224954,18.0494157,robot_mower_seller,,,,Sunnanängsvägen,12,,,Sunnanängsvägen 12
+node/3350546422,Blomsterlandet,https://www.blomsterlandet.se/hitta-din-butik/stockholm-haninge/,https://www.openstreetmap.org/node/3350546422,59.1792341,18.1523131,robot_mower_seller,,,,Nynäsvägen,21A,136 47,Haninge,"Nynäsvägen 21A, 136 47 Haninge"
+node/3465013823,Blomsterlandet,https://www.blomsterlandet.se/Hitta-butik/Orebro-Marieberg/,https://www.openstreetmap.org/node/3465013823,59.2096417,15.1397744,robot_mower_seller,,,,Firmavägen,4C,702 31,Örebro,"Firmavägen 4C, 702 31 Örebro"
+node/3470022223,Bolist,https://jarnia.se/butiker/sodersjarn-ab-jarnia/,https://www.openstreetmap.org/node/3470022223,59.317559,18.0530941,robot_mower_seller,,,,,,,,
+node/3495728068,Karl Hedin,https://www.abkarlhedin.se/bygghandel/karta/hedemora,https://www.openstreetmap.org/node/3495728068,60.2881603,15.9852519,robot_mower_seller,,,,Vårgatan,6,776 33,Hedemora,"Vårgatan 6, 776 33 Hedemora"
+node/3539685422,Melldala Trädgård,https://www.melldala.se/,https://www.openstreetmap.org/node/3539685422,58.5088051,13.7536605,robot_mower_seller,,,,,,54017,Lerdala,54017 Lerdala
+node/3539685423,Rosenlunds Trädgård,https://rosenlundstradgard.com/,https://www.openstreetmap.org/node/3539685423,58.4625802,13.8483178,robot_mower_seller,,,,,5,54191,Skövde,54191 Skövde
+node/3573218396,Gråbergs plant,https://www.grabergsplant.se/,https://www.openstreetmap.org/node/3573218396,64.7376398,20.5881618,robot_mower_seller,,,,,,,,
+node/3576625295,Byggmax,https://www.byggmax.se/butiker/h%C3%A4rn%C3%B6sand,https://www.openstreetmap.org/node/3576625295,62.6504125,17.8935461,robot_mower_seller,,,,,,,,
+node/3579152954,Granngården,https://www.granngarden.se/,https://www.openstreetmap.org/node/3579152954,60.6624436,17.1771811,robot_mower_seller,,,,Rälsgatan,8,80291,Gävle,"Rälsgatan 8, 80291 Gävle"
+node/3596932169,Stolpens Trädgård,http://www.stolpenstradgard.se,https://www.openstreetmap.org/node/3596932169,59.370801,14.0112805,robot_mower_seller,,,,,,,,
+node/3624788693,Byggfabriken,http://www.byggfabriken.com,https://www.openstreetmap.org/node/3624788693,57.6920197,11.9507944,robot_mower_seller,,,,Olivedalsgatan,19,413 10,Göteborg,"Olivedalsgatan 19, 413 10 Göteborg"
+node/3665176802,Sunnansjö Järn & Bygghandel,http://www.sunnansjojarn.se,https://www.openstreetmap.org/node/3665176802,60.2168846,14.96033,robot_mower_seller,,,,Hyttvägen,20A,770 12,Sunnansjö,"Hyttvägen 20A, 770 12 Sunnansjö"
+node/3693516314,Tant Grön,http://www.tant-gron.nu,https://www.openstreetmap.org/node/3693516314,59.2604431,14.9477141,robot_mower_seller,,,,Fårahagen,320,71931,Vintrosa,"Fårahagen 320, 71931 Vintrosa"
+node/3710822363,Arnes Motortjänst,https://www.arnesmotor.com/,https://www.openstreetmap.org/node/3710822363,56.3371489,13.6642841,robot_mower_seller,,,,,,,,
+node/3723834838,Elgiganten,https://www.elgiganten.se/store/elgiganten-bernstorp,https://www.openstreetmap.org/node/3723834838,55.61365,13.1046772,robot_mower_seller,,,,Vassvägen,23,23261,Arlöv,"Vassvägen 23, 23261 Arlöv"
+node/3737668722,Sifvert Skruv,https://www.sifvert-skruv.se/,https://www.openstreetmap.org/node/3737668722,59.2939252,18.0081513,robot_mower_seller,,,,Elektravägen,53,126 30,Hägersten,"Elektravägen 53, 126 30 Hägersten"
+node/3804150284,JULA,https://www.jula.se/,https://www.openstreetmap.org/node/3804150284,59.7465093,18.6778222,robot_mower_seller,,,,August Strindbergs gata,1,761 46,Norrtälje,"August Strindbergs gata 1, 761 46 Norrtälje"
+node/3849806966,Plantagen,https://www.plantagen.se/butiker/butik/?sid=330,https://www.openstreetmap.org/node/3849806966,59.3768499,13.4432847,robot_mower_seller,,,,,,,,
+node/3978808393,Byggmax,https://www.byggmax.se/butiker/sthlm-bromma,https://www.openstreetmap.org/node/3978808393,59.3467575,17.9488699,robot_mower_seller,,,,Linta gårdsväg,5,168 74,Bromma,"Linta gårdsväg 5, 168 74 Bromma"
+node/4083452539,Borgunda Bygghandel,https://www.borgunda.se/kontakt-skovde/,https://www.openstreetmap.org/node/4083452539,58.4113781,13.8814239,robot_mower_seller,,,,Jonstorpsgatan,27,54166,Skövde,"Jonstorpsgatan 27, 54166 Skövde"
+node/4158085829,Granngården,http://www.granngarden.se/store/Malmö,https://www.openstreetmap.org/node/4158085829,55.5501958,12.9985239,robot_mower_seller,,,,,,,,
+node/4158085842,Jula,https://www.jula.se/vara-varuhus/malmo-svagertorp/,https://www.openstreetmap.org/node/4158085842,55.5504606,12.9984899,robot_mower_seller,,,,Nornegatan,10C,215 86,Malmö,"Nornegatan 10C, 215 86 Malmö"
+node/4158085845,Elgiganten,https://www.elgiganten.se/store/elgiganten-svagertorp,https://www.openstreetmap.org/node/4158085845,55.5487374,12.9970382,robot_mower_seller,,,,Nornegatan,12,215 86,Malmö,"Nornegatan 12, 215 86 Malmö"
+node/4200844998,Jula,https://www.jula.se/vara-varuhus/malmo-stora-bernstorp/,https://www.openstreetmap.org/node/4200844998,55.6136211,13.1019629,robot_mower_seller,,,,Vassvägen,21,23291,Arlöv,"Vassvägen 21, 23291 Arlöv"
+node/4239105802,Elgiganten,https://www.elgiganten.se/store/elgiganten-boras,https://www.openstreetmap.org/node/4239105802,57.7330903,12.935981,robot_mower_seller,,,,Ålgårdsvägen,4,506 30,Borås,"Ålgårdsvägen 4, 506 30 Borås"
+node/4278612206,NA Svensson Woody Bygghandel,https://nasvensson-trosavagnharad.woody.se/,https://www.openstreetmap.org/node/4278612206,58.9553245,17.4923906,robot_mower_seller,,,,,,,,
+node/4333956374,Bröderna,https://www.brodernaibromolla.se,https://www.openstreetmap.org/node/4333956374,56.0724427,14.4683538,robot_mower_seller,,,,Storgatan,,,Bromölla,"Storgatan, Bromölla"
+node/4359323317,Elgiganten,https://www.elgiganten.se,https://www.openstreetmap.org/node/4359323317,59.1979371,18.1288651,robot_mower_seller,,,,,,,,
+node/4364720715,Storex,http://www.storex.se/,https://www.openstreetmap.org/node/4364720715,57.7420766,11.9954039,robot_mower_seller,,,,,,,,
+node/4383586819,Bad & Värme,https://www.bad-varme.se/,https://www.openstreetmap.org/node/4383586819,56.5197774,14.9853123,robot_mower_seller,,,,,,,,
+node/4403995948,Clas Ohlson,https://jobb.clasohlson.com/locations/butik-kiruna,https://www.openstreetmap.org/node/4403995948,67.8478153,20.2532597,robot_mower_seller,,,,Österleden,4,,,Österleden 4
+node/4417239403,Elon,https://www.elon.se/,https://www.openstreetmap.org/node/4417239403,59.4227384,18.0486994,robot_mower_seller,,,,Sunnanängsvägen,5,,,Sunnanängsvägen 5
+node/4417239427,Trademax,https://trademax.se/,https://www.openstreetmap.org/node/4417239427,59.4225473,18.0478896,robot_mower_seller,,,,,,,,
+node/4422261801,Larsons Järn,https://www.larsonsjarn.se/,https://www.openstreetmap.org/node/4422261801,66.3265918,22.8446184,robot_mower_seller,,,,,,,,
+node/4428863838,Smarthem.se,https://www.smarthem.se/,https://www.openstreetmap.org/node/4428863838,58.5882663,16.2235565,robot_mower_seller,,,,Importgatan,30,60228,Norrköping,"Importgatan 30, 60228 Norrköping"
+node/4504855178,NetOnNet,https://www.netonnet.se/content/lagershop/lagershop%20malm%C3%B6%20sv%C3%A5gertorp,https://www.openstreetmap.org/node/4504855178,55.5512448,12.9936741,robot_mower_seller,,,,Nornegatan,5,215 86,Malmö,"Nornegatan 5, 215 86 Malmö"
+node/4524685764,Tools,https://www.tools.se/,https://www.openstreetmap.org/node/4524685764,59.3460007,18.0380667,robot_mower_seller,,,,,,,,
+node/4649170946,Cramo,https://www.cramo.com/sv-SE/,https://www.openstreetmap.org/node/4649170946,58.3550021,11.9721206,robot_mower_seller,,,,,,,,
+node/4724792475,Oscar Gustafsson Biredskap,http://www.ogtbiredskap.se/,https://www.openstreetmap.org/node/4724792475,57.1837786,12.2809616,robot_mower_seller,,,,,,,,
+node/4735244898,Elon,https://www.elon.se/butiker/nynashamn/elon-nynashamn,https://www.openstreetmap.org/node/4735244898,58.9128532,17.9557675,robot_mower_seller,,,,Telivägen,2,14941,Nynäshamn,"Telivägen 2, 14941 Nynäshamn"
+node/4736638781,Special Beslag,https://www.specialbeslag.se,https://www.openstreetmap.org/node/4736638781,57.7274982,11.9595529,robot_mower_seller,,,,Norra Deltavägen,3,,Göteborg,"Norra Deltavägen 3, Göteborg"
+node/4754149823,Granngården,http://www.granngarden.se/store/Ängelholm,https://www.openstreetmap.org/node/4754149823,56.250154,12.8952621,robot_mower_seller,,,,,,,,
+node/4754149824,Granngården,http://www.granngarden.se/store/Varberg,https://www.openstreetmap.org/node/4754149824,57.1216768,12.2836813,robot_mower_seller,,,,,,,,
+node/4754149825,Granngården,http://www.granngarden.se/store/Halmstad,https://www.openstreetmap.org/node/4754149825,56.6501298,12.8958176,robot_mower_seller,,,,,,,,
+node/4754168063,Granngården,http://www.granngarden.se/,https://www.openstreetmap.org/node/4754168063,57.7130623,12.9589812,robot_mower_seller,,,,,,,,
+node/4754172348,Granngården,http://www.granngarden.se/,https://www.openstreetmap.org/node/4754172348,58.5727874,12.0021261,robot_mower_seller,,,,,,,,
+node/4754172451,Granngården,http://www.granngarden.se/store/Helsingborg,https://www.openstreetmap.org/node/4754172451,56.093161,12.765607,robot_mower_seller,,,,,,,,
+node/4754178221,Granngården,http://www.granngarden.se/,https://www.openstreetmap.org/node/4754178221,59.0453421,12.6810536,robot_mower_seller,,,,,,,,
+node/4787707610,TOOLS,http://www.tools.se/,https://www.openstreetmap.org/node/4787707610,57.6590617,11.9384478,robot_mower_seller,,,,,,,,
+node/4829302884,Klassiska Byggvaror,https://www.klassiskabyggvaror.se/,https://www.openstreetmap.org/node/4829302884,60.2798934,15.9866449,robot_mower_seller,,,,,,,,
+node/4871469490,Swedol,https://www.swedol.se/,https://www.openstreetmap.org/node/4871469490,62.4222913,17.3442608,robot_mower_seller,,,,Norra vägen,25,856 50,Sundsvall,"Norra vägen 25, 856 50 Sundsvall"
+node/4876733136,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/node/4876733136,56.2494546,12.8959347,robot_mower_seller,,,,,,,,
+node/4909470320,Centralkonditoriet,https://centralkonditoriet.com/,https://www.openstreetmap.org/node/4909470320,59.8568065,17.6438485,robot_mower_seller,,,,Vretgränd,16,75322,Uppsala,"Vretgränd 16, 75322 Uppsala"
+node/4936148255,Maskinkontakten i Uppland AB,https://www.verktygsproffsen.se/contact.php,https://www.openstreetmap.org/node/4936148255,59.6146935,17.8810499,robot_mower_seller,,,,Söderbyvägen,3C,19560,Arlandastad,"Söderbyvägen 3C, 19560 Arlandastad"
+node/4945291096,NetOnNet,https://www.netonnet.se/content/lagershop/43/falun,https://www.openstreetmap.org/node/4945291096,60.6076094,15.6567568,robot_mower_seller,,,,Bataljonsvägen,9,791 40,Falun,"Bataljonsvägen 9, 791 40 Falun"
+node/5213065322,Clas Ohlson,https://www.clasohlson.com/,https://www.openstreetmap.org/node/5213065322,59.3315448,18.0671286,robot_mower_seller,,,,,,,,
+node/5227169554,Plantmarknaden,https://plantmarknaden.com/,https://www.openstreetmap.org/node/5227169554,59.5868377,15.2439457,robot_mower_seller,,,,Svarttjärnsvägen,3,71131,Lindesberg,"Svarttjärnsvägen 3, 71131 Lindesberg"
+node/5258544952,Bolist Jensens Byggland,https://bolist.se/butiker/jensensbyggland/,https://www.openstreetmap.org/node/5258544952,55.7751712,13.5035685,robot_mower_seller,,,,Löparegatan,3,241 61,Löberöd,"Löparegatan 3, 241 61 Löberöd"
+node/5281664576,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/node/5281664576,56.6951157,16.3276586,robot_mower_seller,,,,,,,,
+node/5306970764,Rusta,https://www.rusta.com/se/,https://www.openstreetmap.org/node/5306970764,59.2109971,15.1398189,robot_mower_seller,,,,,,,,
+node/5316511196,areco,https://www.arecodirect.se/sv/,https://www.openstreetmap.org/node/5316511196,59.6076137,16.6151959,robot_mower_seller,,,,Hällagatan,4,72134,Västerås,"Hällagatan 4, 72134 Västerås"
+node/5341437536,Blomsterlandet,https://www.blomsterlandet.se,https://www.openstreetmap.org/node/5341437536,63.798648,20.3032588,robot_mower_seller,,,,Strömpilsplatsen,17,90743,Umeå,"Strömpilsplatsen 17, 90743 Umeå"
+node/5354425627,HTH Köksforum,https://stores.hth.se/butiker/sweden/hth-kalmar/,https://www.openstreetmap.org/node/5354425627,56.6941177,16.3325232,robot_mower_seller,,,,Dagövägen,5,,,Dagövägen 5
+node/5527696232,Bärebergs Järn & Maskin,http://www.bjm.se,https://www.openstreetmap.org/node/5527696232,58.2047151,12.679494,robot_mower_seller,,,,,,,,
+node/5535921824,Byggnadsvårdsbutiken,https://www.byggnadsvardsbutiken.se/,https://www.openstreetmap.org/node/5535921824,59.5679884,16.370888,robot_mower_seller,,,,Smedsbostigen,1,,,Smedsbostigen 1
+node/5585711223,K-Bygg,https://k-bygg.se/varuhus/k-bygg-linkoping,https://www.openstreetmap.org/node/5585711223,58.4275991,15.6176673,robot_mower_seller,,,,Gillbergagatan,17,582 73,Linköping,"Gillbergagatan 17, 582 73 Linköping"
+node/5618092637,Swedol Sätra,https://www.swedol.se/,https://www.openstreetmap.org/node/5618092637,59.2857422,17.9306302,robot_mower_seller,,,,Stensätravägen,4,127 39,Skärholmen,"Stensätravägen 4, 127 39 Skärholmen"
+node/5618092638,Elproman,https://www.elproman.se/,https://www.openstreetmap.org/node/5618092638,59.2830065,17.9460021,robot_mower_seller,,,,Lövbacksvägen,3,14171,Segeltorp,"Lövbacksvägen 3, 14171 Segeltorp"
+node/5705316308,XL-Bygg Bleket,https://www.xlbygg.se/butiker/xl-bygg-bleket/,https://www.openstreetmap.org/node/5705316308,57.9488667,11.5683907,robot_mower_seller,,,,Bleketvägen,35,47150,Bleket,"Bleketvägen 35, 47150 Bleket"
+node/5725939821,Mekia AB,https://www.mekia.se/,https://www.openstreetmap.org/node/5725939821,57.6730846,11.663564,robot_mower_seller,,,,,,,,
+node/5746075985,Lindar'n,https://www.lindarn.se/,https://www.openstreetmap.org/node/5746075985,57.3576905,12.1218628,robot_mower_seller,,,,,,,,
+node/5752637654,Clas Ohlson,https://www.clasohlson.com,https://www.openstreetmap.org/node/5752637654,58.4936169,13.1843633,robot_mower_seller,,,,Rörstrandsgatan,5C,53140,Lidköping,"Rörstrandsgatan 5C, 53140 Lidköping"
+node/5804098303,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/node/5804098303,63.8522525,20.2130957,robot_mower_seller,,,,Mätarvägen,2B,90133,Umeå,"Mätarvägen 2B, 90133 Umeå"
+node/5809273993,Elgiganten,https://www.elgiganten.se/store/elgiganten-varnamo,https://www.openstreetmap.org/node/5809273993,57.1618149,14.0744248,robot_mower_seller,,,,Bredastensvägen,2,33144,Värnamo,"Bredastensvägen 2, 33144 Värnamo"
+node/5825406738,XL Bygg Östergyllen AB,https://www.xlbygg.se/motala,https://www.openstreetmap.org/node/5825406738,58.5536887,15.0122806,robot_mower_seller,,,,Björnvägen,1,,,Björnvägen 1
+node/5868041285,Hannas Trădgård,http://hannas.se,https://www.openstreetmap.org/node/5868041285,55.465157,13.935314,robot_mower_seller,,,,Forsvăgen,20,27172,Köpingebro,"Forsvăgen 20, 27172 Köpingebro"
+node/5979536389,QC trädgårdsexperten,https://www.qctradgard.se/vasby,https://www.openstreetmap.org/node/5979536389,59.516303,17.8985599,robot_mower_seller,,,,,,,,
+node/6117309789,Elgiganten,https://www.elgiganten.se/stores/blekinge-lan/karlshamn/phone-house-karlshamn,https://www.openstreetmap.org/node/6117309789,56.1703189,14.8640694,robot_mower_seller,,,,,,,,
+node/6188507634,Biltema,https://www.biltema.se/varuhus-och-oppettider/landskrona/,https://www.openstreetmap.org/node/6188507634,55.8736225,12.8603017,robot_mower_seller,,,,Österleden,185,261 51,Landskrona,"Österleden 185, 261 51 Landskrona"
+node/6250017181,Backmarks,https://www.backmarks.com/,https://www.openstreetmap.org/node/6250017181,62.4145553,17.3473137,robot_mower_seller,,,,,,,,
+node/6258328656,Bejier,https://www.beijerbygg.se/privat/sv/borgholm,https://www.openstreetmap.org/node/6258328656,56.8790346,16.6811236,robot_mower_seller,,,,,,,,
+node/6279507591,Karlsborgs Bygghandel,https://www.kbgbygg.se/,https://www.openstreetmap.org/node/6279507591,58.526958,14.5114539,robot_mower_seller,,,,,,,,
+node/6310529692,Selga,https://www.selga.se/sel/T%c3%a4by/store/124,https://www.openstreetmap.org/node/6310529692,59.4402808,18.0959933,robot_mower_seller,,,,Fogdevägen,1,183 64,Täby,"Fogdevägen 1, 183 64 Täby"
+node/6331834004,Blomsterlandet,https://www.blomsterlandet.se/hitta-din-butik/norrkoping-ingelsta/,https://www.openstreetmap.org/node/6331834004,58.6234696,16.152901,robot_mower_seller,,,,Koppargatan,33,602 23,Norrköping,"Koppargatan 33, 602 23 Norrköping"
+node/6387760108,Lundagrossisten,https://lundagrossisten.se/warehouses/solna/,https://www.openstreetmap.org/node/6387760108,59.3725787,18.009218,robot_mower_seller,,,,,,,,
+node/6388868133,Rusta,https://www.rusta.se/,https://www.openstreetmap.org/node/6388868133,59.3590438,18.001582,robot_mower_seller,,,,,,,,
+node/6388868134,Clas Ohlson,https://www.clasohlson.com,https://www.openstreetmap.org/node/6388868134,59.358937,18.0013758,robot_mower_seller,,,,,,,,
+node/6443950676,Jula,https://www.jula.se/vara-varuhus/uppsala-granbystaden/,https://www.openstreetmap.org/node/6443950676,59.8848003,17.6745558,robot_mower_seller,,,,Takpannegatan,19,754 60,Uppsala,"Takpannegatan 19, 754 60 Uppsala"
+node/6485716785,Flarkens Järn & Färg,https://www.facebook.com/Flarkens-J%C3%A4rn-1034115656652817/,https://www.openstreetmap.org/node/6485716785,64.302551,20.8676936,robot_mower_seller,,,,Flarkvägen,133,91596,Flarken,"Flarkvägen 133, 91596 Flarken"
+node/6584042638,Cesars Trädgård,http://cesarsvisningstradgard.blogspot.com/,https://www.openstreetmap.org/node/6584042638,56.5298116,15.2470815,robot_mower_seller,,,,,,,,
+node/6586413720,Malmbergs,https://www.malmbergs.com/,https://www.openstreetmap.org/node/6586413720,59.3677904,18.0058026,robot_mower_seller,,,,,,,,
+node/6609950060,Clas Ohlson,https://clasohlson.com,https://www.openstreetmap.org/node/6609950060,57.7335016,12.9387444,robot_mower_seller,,,,Lundbygatan,1,506 30,Borås,"Lundbygatan 1, 506 30 Borås"
+node/6680470216,Agne Olssons Maskinuthyrning,http://www.uthyrningar.se,https://www.openstreetmap.org/node/6680470216,56.2103558,14.772293,robot_mower_seller,,,,,,,,
+node/6758703310,Clas Ohlson,https://www.clasohlson.com/se/,https://www.openstreetmap.org/node/6758703310,59.8596302,17.6377317,robot_mower_seller,,,,Sankt Persgatan,7-11,75320,Uppsala,"Sankt Persgatan 7-11, 75320 Uppsala"
+node/6779649210,Kakelbutiken,http://kakelbutiken.com,https://www.openstreetmap.org/node/6779649210,55.9254199,12.9563811,robot_mower_seller,,,,,,,,
+node/6780381542,Ekbacken 939,https://ekbacken939.se/,https://www.openstreetmap.org/node/6780381542,55.7013874,13.1405292,robot_mower_seller,,,,Trollebergsvägen,102,245 61,Staffanstorp,"Trollebergsvägen 102, 245 61 Staffanstorp"
+node/6835736830,XL-BYGG Alingsås,https://www.xlbygg.se/alingsas/omoss/om-xl-bygg-alingsas,https://www.openstreetmap.org/node/6835736830,57.9383709,12.569533,robot_mower_seller,,,,Krangatan,12,441 38,Alingsås,"Krangatan 12, 441 38 Alingsås"
+node/6835762899,Jordnära,https://jordnara.se/,https://www.openstreetmap.org/node/6835762899,57.9376451,12.5683429,robot_mower_seller,,,,Krangatan,12,441 38,Alingsås,"Krangatan 12, 441 38 Alingsås"
+node/6916893465,Nordemans Jernhandel,https://bolist.se/butiker/nordemans-jernhandel-i-bredbyn/,https://www.openstreetmap.org/node/6916893465,63.4392808,18.1380254,robot_mower_seller,,,,Prästbordet,203,,,Prästbordet 203
+node/6916893466,Sjödins Sport Radio-TV,http://www.sjodinssport.se/,https://www.openstreetmap.org/node/6916893466,63.428282,18.3128357,robot_mower_seller,,,,Järnvägsgatan,46,,,Järnvägsgatan 46
+node/6916902513,Lantboa,https://www.facebook.com/lantboa/,https://www.openstreetmap.org/node/6916902513,63.4540265,18.1036985,robot_mower_seller,,,,Köpmangatan,3,,,Köpmangatan 3
+node/6961383560,Beijer Cykel & Sport,https://beijerscykel.se/,https://www.openstreetmap.org/node/6961383560,55.5939086,12.9837641,robot_mower_seller,,,,Mariedalsvägen,52,217 43,Malmö,"Mariedalsvägen 52, 217 43 Malmö"
+node/7020665252,Elon,https://www.elon.se/butiker/askersund/elon-ahlins-radio-och-tv,https://www.openstreetmap.org/node/7020665252,58.8803462,14.901881,robot_mower_seller,,,,Storgatan,29,696 30,Askersund,"Storgatan 29, 696 30 Askersund"
+node/7024229432,PT:s Motor AB,https://ptsmotor.se,https://www.openstreetmap.org/node/7024229432,60.5980609,15.6261181,robot_mower_seller,,,,Timmervägen,11,791 62,Falun,"Timmervägen 11, 791 62 Falun"
+node/7052573105,Norma Jeane Blomster,https://normajeaneblomster.se/,https://www.openstreetmap.org/node/7052573105,63.1743522,14.6388013,robot_mower_seller,,,,Kyrkgatan,74,831 34,Östersund,"Kyrkgatan 74, 831 34 Östersund"
+node/7084370382,Beijer Byggmaterial,https://www.beijerbygg.se/privat/sv/haggvik,https://www.openstreetmap.org/node/7084370382,59.4358121,17.931856,robot_mower_seller,,,,Kuskvägen,2,19162,Sollentuna,"Kuskvägen 2, 19162 Sollentuna"
+node/7100517200,Clas Ohlson,https://www.clasohlson.com,https://www.openstreetmap.org/node/7100517200,59.4288552,17.9510262,robot_mower_seller,,,,Sollentunavägen,163,19147,Sollentuna,"Sollentunavägen 163, 19147 Sollentuna"
+node/7485407781,Battsam,https://www.battsam.se/,https://www.openstreetmap.org/node/7485407781,56.187664,15.6022838,robot_mower_seller,,,,,,,,
+node/7553245273,XL Bygg,https://www.xlbygg.se/umea,https://www.openstreetmap.org/node/7553245273,63.8505327,20.210981,robot_mower_seller,,,,Mätarvägen,3,90133,,"Mätarvägen 3, 90133"
+node/7553248368,XL Bygg,https://www.xlbygg.se/umeasyd,https://www.openstreetmap.org/node/7553248368,63.8062455,20.2644662,robot_mower_seller,,,,Lärlingsgatan,15,90422,,"Lärlingsgatan 15, 90422"
+node/7600258381,Kröns Trädgård,https://kronstradgard.se,https://www.openstreetmap.org/node/7600258381,59.9792,18.8162,robot_mower_seller,,,,Tivängsvägen,11,,,Tivängsvägen 11
+node/7600845721,Alla Tiders Skebo,https://allatidersskebo.se/,https://www.openstreetmap.org/node/7600845721,59.0630011,16.7109773,robot_mower_seller,,,,Sparreholmsvägen 33 B,,642 91,FLEN,"Sparreholmsvägen 33 B, 642 91 FLEN"
+node/7629714003,Härnevi plantskola,https://harneviplantskola.se/,https://www.openstreetmap.org/node/7629714003,59.7131342,17.0852992,robot_mower_seller,,,,,,,,
+node/7652807665,Hyr-Lund,https://www.hyrlund.se,https://www.openstreetmap.org/node/7652807665,59.8670068,17.6606519,robot_mower_seller,,,,Björkgatan,4,,,Björkgatan 4
+node/7652830264,Kakel Design,https://www.kakeldesign.se,https://www.openstreetmap.org/node/7652830264,59.8664453,17.6615467,robot_mower_seller,,,,,,,,
+node/7692609921,Jula,https://www.jula.se/vara-varuhus/nykoping/,https://www.openstreetmap.org/node/7692609921,58.7707861,17.0245171,robot_mower_seller,,,,Gustafsbergsstigen,4,611 67,Nyköping,"Gustafsbergsstigen 4, 611 67 Nyköping"
+node/7726645701,Ahlsell Malmö Fosie,https://www.ahlsell.se/butiker/malmo-fosie/,https://www.openstreetmap.org/node/7726645701,55.5540747,13.0422286,robot_mower_seller,,,,Stenyxegatan,33,21376,Malmö,"Stenyxegatan 33, 21376 Malmö"
+node/7843394621,NP Nilsson Helsingborg,https://bygghandel.npn.se,https://www.openstreetmap.org/node/7843394621,56.0736574,12.7134232,robot_mower_seller,,,,Bergavägen,17,254 66,Helsingborg,"Bergavägen 17, 254 66 Helsingborg"
+node/7922833286,Elon,https://www.elon.se/butiker/skara/elon-ljud-bild-skara,https://www.openstreetmap.org/node/7922833286,58.385523,13.4367723,robot_mower_seller,,,,Marumsgatan,7,532 32,Skara,"Marumsgatan 7, 532 32 Skara"
+node/7981380520,Materialmännen,https://materialmannen.se/,https://www.openstreetmap.org/node/7981380520,58.21533,16.5765819,robot_mower_seller,,,,Hagadalsgatan,8,615 32,Valdemarsvik,"Hagadalsgatan 8, 615 32 Valdemarsvik"
+node/8042875915,Göteborgs Skruvcenter,https://skruvcenter.se/,https://www.openstreetmap.org/node/8042875915,57.7077514,11.8824028,robot_mower_seller,,,,Ovädersgatan,14,41834,Göteborg,"Ovädersgatan 14, 41834 Göteborg"
+node/8121052931,Elgiganten,https://www.elgiganten.se,https://www.openstreetmap.org/node/8121052931,59.436648,17.9269301,robot_mower_seller,,,,Bagarbyvägen,61,19162,Sollentuna,"Bagarbyvägen 61, 19162 Sollentuna"
+node/8121052977,Jula,https://www.jula.se/vara-varuhus/stockholm-haggvik/,https://www.openstreetmap.org/node/8121052977,59.4372324,17.9278267,robot_mower_seller,,,,Bagarbyvägen,61,19162,Sollentuna,"Bagarbyvägen 61, 19162 Sollentuna"
+node/8121666603,Elgiganten,https://www.elgiganten.se/store/elgiganten-falun,https://www.openstreetmap.org/node/8121666603,60.6049117,15.6650199,robot_mower_seller,,,,,,,,
+node/8222273678,Rusta,https://www.rusta.com/se/sv/information/varuhus/kristianstad/,https://www.openstreetmap.org/node/8222273678,56.025194,14.1191627,robot_mower_seller,,,,Herluf Trolles väg,13,,,Herluf Trolles väg 13
+node/8381423718,Derome,https://www.derome.se/,https://www.openstreetmap.org/node/8381423718,56.2182873,15.6498855,robot_mower_seller,,,,,,,,
+node/8475670493,Dalviks Kvarn,https://dalvikskvarn.se,https://www.openstreetmap.org/node/8475670493,60.6030874,15.6644132,robot_mower_seller,,,,Gammelvägen,16,791 41,Falun,"Gammelvägen 16, 791 41 Falun"
+node/8513010821,Grustorp,https://grustorp.se/,https://www.openstreetmap.org/node/8513010821,57.8446737,13.1453903,robot_mower_seller,,,,Skabo,120,523 99,Hökerum,"Skabo 120, 523 99 Hökerum"
+node/8589761806,Clas Ohlson,https://www.clasohlson.com/se/,https://www.openstreetmap.org/node/8589761806,59.2697213,17.917124,robot_mower_seller,,,,,,,,
+node/8653265383,Jula,https://www.rusta.com/se/sv/information/varuhus/hassleholm/,https://www.openstreetmap.org/node/8653265383,56.1493606,13.7816285,robot_mower_seller,,,,,,,,
+node/8662118764,Stoby,https://stoby.se,https://www.openstreetmap.org/node/8662118764,56.1638743,13.7356248,robot_mower_seller,,,,,,,,
+node/8702483891,Bygghemma,https://www.bygghemma.se/,https://www.openstreetmap.org/node/8702483891,59.4849905,17.9175828,robot_mower_seller,,,,,,,,
+node/8702483893,elon,https://www.elon.se/,https://www.openstreetmap.org/node/8702483893,59.4843281,17.9170786,robot_mower_seller,,,,,,,,
+node/8755610293,Biltema,https://www.biltema.se/varuhus-och-oppettider/hassleholm/,https://www.openstreetmap.org/node/8755610293,56.1661132,13.7897771,robot_mower_seller,,,,,,,,
+node/8757847605,Växtkraft Rosenhagen,https://www.vaxtkraft.se,https://www.openstreetmap.org/node/8757847605,55.6132826,13.9919231,robot_mower_seller,,,,Tranesvägen,31,27392,Skåne-Tranås,"Tranesvägen 31, 27392 Skåne-Tranås"
+node/8763498517,Nysättra Såg och Hyvleri,https://www.woody.se/norrtalje,https://www.openstreetmap.org/node/8763498517,59.8086072,18.8930832,robot_mower_seller,,,,Vätövägen,496,,,Vätövägen 496
+node/8841856900,Nybogården,https://nybogarden.se,https://www.openstreetmap.org/node/8841856900,60.4008406,15.7310231,robot_mower_seller,,,,,,,,
+node/8874830037,LT Lantmän,https://www.ltlantman.se/butiken/butiken_i_tyringe/,https://www.openstreetmap.org/node/8874830037,56.1592216,13.6047992,robot_mower_seller,,,,,,,,
+node/9105947527,Morlanda Handelsträdgård,https://www.morlandaht.se,https://www.openstreetmap.org/node/9105947527,58.1897912,11.5021934,robot_mower_seller,,,,,110,474 93,Ellös,474 93 Ellös
+node/9203404286,Rusta,https://www.rusta.com,https://www.openstreetmap.org/node/9203404286,56.8093573,13.9046842,robot_mower_seller,,,,,,,,
+node/9280930920,Plantagen,https://plantagen.se/se/vara-butiker/sverige/stockholm-skondal,https://www.openstreetmap.org/node/9280930920,59.2605368,18.1033554,robot_mower_seller,,,,Sköndalsvägen,3,128 69,Sköndal,"Sköndalsvägen 3, 128 69 Sköndal"
+node/9380352935,Optimera,https://www.optimera.se/bygghandel/proffs/v%C3%A5ra-butiker/byggvaruhus-%C3%85rsta,https://www.openstreetmap.org/node/9380352935,59.2896054,18.0585654,robot_mower_seller,,,,,,,,
+node/9450878342,Jula,https://www.jula.se/vara-varuhus/eslov/,https://www.openstreetmap.org/node/9450878342,55.8439781,13.3271472,robot_mower_seller,,,,Fallskärmsgatan,7A,241 91,Eslöv,"Fallskärmsgatan 7A, 241 91 Eslöv"
+node/9479428902,Worx,https://worx.nu/,https://www.openstreetmap.org/node/9479428902,55.5623915,13.0359513,robot_mower_seller,,,,Järnyxegatan,8,21375,Malmö,"Järnyxegatan 8, 21375 Malmö"
+node/9482229944,Clas Ohlson,https://www.clasolson.com,https://www.openstreetmap.org/node/9482229944,63.8257075,20.2604507,robot_mower_seller,,,,Kungsgatan,54,,,Kungsgatan 54
+node/9482244404,Clas Ohlson,https://www.clasohlson.com/,https://www.openstreetmap.org/node/9482244404,63.2891298,18.7148642,robot_mower_seller,,,,Stora Torget,3,,,Stora Torget 3
+node/9519217141,Elon,https://www.elon.se/butiker/limhamn/elon-knut-pers-i-limhamn-malmo,https://www.openstreetmap.org/node/9519217141,55.5816759,12.9326387,robot_mower_seller,,,,Linnégatan,41,216 14,Limhamn,"Linnégatan 41, 216 14 Limhamn"
+node/9551518755,Plant that Plant,https://plantthatplant.com/,https://www.openstreetmap.org/node/9551518755,55.5966885,12.9998272,robot_mower_seller,,,,Östra Rönneholmsvägen,6,21147,Malmö,"Östra Rönneholmsvägen 6, 21147 Malmö"
+node/9695726470,Bolist Utterströms,https://bolist.se/butiker/bolist-utterstroms/,https://www.openstreetmap.org/node/9695726470,63.5691781,19.4998864,robot_mower_seller,,,,Storgatan,3,,,Storgatan 3
+node/9778926750,Würth,https://www.wurth.se/,https://www.openstreetmap.org/node/9778926750,59.2014151,18.1269122,robot_mower_seller,,,,,,,,
+node/9853920063,Bygghemma,https://www.bygghemma.se/vara-butiker/malmo/,https://www.openstreetmap.org/node/9853920063,55.5512558,12.9940993,robot_mower_seller,,,,Nornegatan,5,215 86,Malmö,"Nornegatan 5, 215 86 Malmö"
+node/9858853077,Byggfabriken,https://www.byggfabriken.com/vara-butiker/#c6174,https://www.openstreetmap.org/node/9858853077,55.6078782,13.0076076,robot_mower_seller,,,,Östergatan,5,211 25,Malmö,"Östergatan 5, 211 25 Malmö"
+node/9884887179,AB Karl Hedin Bygghandel,https://www.abkarlhedin.se/bygghandel/karta/ludvika/,https://www.openstreetmap.org/node/9884887179,60.1297728,15.1766735,robot_mower_seller,,,,Snöåvägen,20,771 42,Ludvika,"Snöåvägen 20, 771 42 Ludvika"
+node/9896173986,Jem & Fix,https://www.jemfix.se/hitta-butik/skara/,https://www.openstreetmap.org/node/9896173986,58.3785492,13.4147465,robot_mower_seller,,,,,,,,
+node/9896173987,Elon,https://www.elon.se/butiker/skara/elon-skara,https://www.openstreetmap.org/node/9896173987,58.3789289,13.4144944,robot_mower_seller,,,,,,,,
+node/9935773468,Aceratum Kåseberga,http://www.edafos.se/tradgard/,https://www.openstreetmap.org/node/9935773468,55.3958549,14.0572895,robot_mower_seller,,,,,,,,
+node/9991530383,Elgiganten,https://www.elgiganten.se/store/phonehouse-varnamo,https://www.openstreetmap.org/node/9991530383,57.1852699,14.0405973,robot_mower_seller,,,,Storgatsbacken,19,33130,Värnamo,"Storgatsbacken 19, 33130 Värnamo"
+node/10036051720,Clas Ohlson,https://www.clasohlson.com/,https://www.openstreetmap.org/node/10036051720,59.3166,18.0339085,robot_mower_seller,,,,,,,,
+node/10128383622,Lundell & Zetterberg,https://lundell-zetterberg.nu/,https://www.openstreetmap.org/node/10128383622,59.3394113,18.0673165,robot_mower_seller,,,,,,,,
+node/10251610592,Dalviks kvarn,https://dalvikskvarn.se,https://www.openstreetmap.org/node/10251610592,60.5558409,15.1186361,robot_mower_seller,,,,Åkerängstavägen,2,785 61,Djurås,"Åkerängstavägen 2, 785 61 Djurås"
+node/10251669042,Dalviks kvarn,https://dalvikskvarn.se,https://www.openstreetmap.org/node/10251669042,60.442964,15.4917393,robot_mower_seller,,,,Kvarngatan,5,784 63,Borlänge,"Kvarngatan 5, 784 63 Borlänge"
+node/10251713397,Dalviks kvarn,https://dalvikskvarn.se,https://www.openstreetmap.org/node/10251713397,59.8050927,15.1648616,robot_mower_seller,,,,,420,714 94,Kopparberg,714 94 Kopparberg
+node/10542957736,Toolab Verktyg,https://www.toolab.se/butik,https://www.openstreetmap.org/node/10542957736,57.6555376,11.9407668,robot_mower_seller,,,,Victor Hasselblads Gata,10,42131,Västra Frölunda,"Victor Hasselblads Gata 10, 42131 Västra Frölunda"
+node/10611328209,Byggmax,https://www.byggmax.se,https://www.openstreetmap.org/node/10611328209,56.169581,13.7563044,robot_mower_seller,,,,Stjärneholmsvägen,2,,,Stjärneholmsvägen 2
+node/10676288471,Clas Ohlson Compact Store,https://www.clasohlson.com/,https://www.openstreetmap.org/node/10676288471,59.3091141,18.0755379,robot_mower_seller,,,,,,,,
+node/10764082180,Granngården,https://www.granngarden.se/butiker/dalby,https://www.openstreetmap.org/node/10764082180,55.660486,13.3447214,robot_mower_seller,,,,Pumpvägen,15,247 50,Dalby,"Pumpvägen 15, 247 50 Dalby"
+node/10780120157,Jula,https://www.jula.se/vara-varuhus/skelleftea/,https://www.openstreetmap.org/node/10780120157,64.7419503,20.9638692,robot_mower_seller,,,,Gymnasievägen,2A,931 59,Skellefteå,"Gymnasievägen 2A, 931 59 Skellefteå"
+node/10837173900,Bauhaus,https://www.bauhaus.se/varuhus/botkyrka,https://www.openstreetmap.org/node/10837173900,59.238899,17.8346568,robot_mower_seller,,,,,,,,
+node/10993209574,Jula Tanumshede,https://www.jula.se/vara-varuhus/tanumshede/,https://www.openstreetmap.org/node/10993209574,58.7220652,11.346383,robot_mower_seller,,,,,,,,
+node/11002335327,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/node/11002335327,58.8871067,14.897751,robot_mower_seller,,,,,,,,
+node/11002351644,Rönne Trädgård,http://www.ronnetradgard.se/,https://www.openstreetmap.org/node/11002351644,58.9355917,15.0193016,robot_mower_seller,,,,,,,,
+node/11037379551,Elgiganten,https://www.elgiganten.se/,https://www.openstreetmap.org/node/11037379551,59.269676,17.9185,robot_mower_seller,,,,,,,,
+node/11047166460,jem & fix,https://www.jemfix.se/hitta-butik/link%C3%B6ping/,https://www.openstreetmap.org/node/11047166460,58.4320269,15.6029752,robot_mower_seller,,,,Fröstorpsgatan,10,582 73,Linköping,"Fröstorpsgatan 10, 582 73 Linköping"
+node/11048252485,Byggmax,https://www.byggmax.se/butiker/tornby,https://www.openstreetmap.org/node/11048252485,58.4339337,15.6025281,robot_mower_seller,,,,Norra Svedengatan,21,582 73,Linköping,"Norra Svedengatan 21, 582 73 Linköping"
+node/11049017052,Pelargonmuseum & trädgård i Torsåker,https://www.pelargonmuseet.se/,https://www.openstreetmap.org/node/11049017052,60.5059306,16.4805237,robot_mower_seller,,,,Forsvägen,19,81395,Torsåker,"Forsvägen 19, 81395 Torsåker"
+node/11051909477,Colorama,https://www.colorama.se/butiker/tranas/,https://www.openstreetmap.org/node/11051909477,58.0363286,14.9779009,robot_mower_seller,,,,Storgatan,36,,,Storgatan 36
+node/11056584888,Hornbach,https://www.hornbach.se/varuhusinfo/hornbach-botkyrka-stockholm/,https://www.openstreetmap.org/node/11056584888,59.2531837,17.862702,robot_mower_seller,,,,,,,,
+node/11161684135,Jem & fix,https://www.jemfix.se/,https://www.openstreetmap.org/node/11161684135,56.3867936,14.0015629,robot_mower_seller,,,,,,,,
+node/11386321686,Brukbar Cirkulär Järnhandel,https://www.brukbar.nu/,https://www.openstreetmap.org/node/11386321686,59.6510568,17.0825136,robot_mower_seller,,,,,,,,
+node/11421775495,Jula,https://www.jula.se/vara-varuhus/falun/,https://www.openstreetmap.org/node/11421775495,60.5773217,15.6074572,robot_mower_seller,,,,,,,,
+node/11423655755,Östkustens Markis och Solskydd,http://ostkustensmarkis.se,https://www.openstreetmap.org/node/11423655755,58.2095173,16.5798646,robot_mower_seller,,,,Bäckadalsgatan,1,61532,Valdemarsvik,"Bäckadalsgatan 1, 61532 Valdemarsvik"
+node/11654691610,VJB Järnhandel,http://vjb.nu,https://www.openstreetmap.org/node/11654691610,65.8188845,15.086029,robot_mower_seller,,,,Blå vägen,44,,,Blå vägen 44
+node/11658240681,XL Bygg,https://www.xlbygg.se/butiker/xl-bygg-grabo/,https://www.openstreetmap.org/node/11658240681,57.8405739,12.2872639,robot_mower_seller,,,,,,,,
+node/11874938480,Thansen,https://www.thansen.se,https://www.openstreetmap.org/node/11874938480,60.4860961,15.4155051,robot_mower_seller,,,,Maskinistgatan,4B,781 70,Borlänge,"Maskinistgatan 4B, 781 70 Borlänge"
+node/11901411900,Mårdsmålens Handelsträdgård,https://mardsmalens.se/,https://www.openstreetmap.org/node/11901411900,58.058582,14.9726553,robot_mower_seller,,,,,,,,
+node/11950485438,Plantagen,https://plantagen.se/se/vara-butiker/sverige/stockholm-haggvik,https://www.openstreetmap.org/node/11950485438,59.437928,17.9305024,robot_mower_seller,,,,Mossvägen,5,19162,Sollentuna,"Mossvägen 5, 19162 Sollentuna"
+node/11961757888,Byggmax,https://www.byggmax.se/butiker/tanumshede,https://www.openstreetmap.org/node/11961757888,58.7217505,11.3452511,robot_mower_seller,,,,Brehogsvägen,5,,,Brehogsvägen 5
+node/11990985299,Emma Stark Art,https://www.facebook.com/starktattoo/,https://www.openstreetmap.org/node/11990985299,57.6933263,11.9557691,robot_mower_seller,,,,Kastellgatan,24,413 07,Göteborg,"Kastellgatan 24, 413 07 Göteborg"
+node/12033015062,Hedentorps Plantskola,https://www.hedentorps.se/,https://www.openstreetmap.org/node/12033015062,56.227561,12.8423775,robot_mower_seller,,,,Kullavägen,95,,,Kullavägen 95
+node/12041217269,Bolist Lidingö Järn & Färg,https://lidingojarn.se,https://www.openstreetmap.org/node/12041217269,59.3678066,18.150608,robot_mower_seller,,,,Stockholmsvägen,72,181 21,,"Stockholmsvägen 72, 181 21"
+node/12054699569,Butik Björkholmen,https://instagram.com/butik_bjorkholmen,https://www.openstreetmap.org/node/12054699569,56.7693235,14.8080284,robot_mower_seller,,,,Tävelsås 1,,35595,,"Tävelsås 1, 35595"
+node/12054699669,Skillnadens Handelsträdgård,https://www.sarabackmo.se/handelstradgarden/,https://www.openstreetmap.org/node/12054699669,56.7241481,14.7562923,robot_mower_seller,,,,Hagtorpet,1,35596,,"Hagtorpet 1, 35596"
+node/12092932604,Odla.nu,https://www.odla.nu/,https://www.openstreetmap.org/node/12092932604,56.0264128,14.2062337,robot_mower_seller,,,,,,,,
+node/12137827118,Beijer Byggmaterial,https://www.beijerbygg.se/,https://www.openstreetmap.org/node/12137827118,62.4143361,17.3499875,robot_mower_seller,,,,,,,,
+node/12142693847,Jula Barkarby,https://www.jula.se/vara-varuhus/stockholm-barkarby/,https://www.openstreetmap.org/node/12142693847,59.4140287,17.8558318,robot_mower_seller,,,,Enköpingsvägen,31,17738,Järfälla,"Enköpingsvägen 31, 17738 Järfälla"
+node/12146569752,Freetrailer släputhyrning - Byggmax,https://freetrailer.com/se/samarbetspartners/byggmax/,https://www.openstreetmap.org/node/12146569752,60.6290425,16.8247131,robot_mower_seller,,,,Mullervägen,16,81193,Sandviken,"Mullervägen 16, 81193 Sandviken"
+node/12182434969,Blomsterlandet,https://www.blomsterlandet.se/hitta-din-butik/nykoping/,https://www.openstreetmap.org/node/12182434969,58.7700859,17.0251608,robot_mower_seller,,,,Gustafsbergsstigen,4,611 67,Nyköping,"Gustafsbergsstigen 4, 611 67 Nyköping"
+node/12194642981,Sjöbloms VVS,https://www.sjoblomsvvs.com/,https://www.openstreetmap.org/node/12194642981,63.8627865,20.3039495,robot_mower_seller,,,,,,,,
+node/12361302509,K-Bygg,https://k-bygg.se/,https://www.openstreetmap.org/node/12361302509,57.7091822,11.8439976,robot_mower_seller,,,,Kärrlyckegatan,26,41878,Göteborg,"Kärrlyckegatan 26, 41878 Göteborg"
+node/12450325355,Elgiganten,https://www.elgiganten.se/store/phonehouse-malmo-burlov,https://www.openstreetmap.org/node/12450325355,55.6398797,13.0859953,robot_mower_seller,,,,,,,,
+node/12495837968,Järnia,https://bolist.se/butiker/bolist-hammaro/,https://www.openstreetmap.org/node/12495837968,59.3435959,13.4988661,robot_mower_seller,,,,Skraggevägen,2,66341,Hammarö,"Skraggevägen 2, 66341 Hammarö"
+node/12511119417,Bolist,https://bolist.se/butiker/kalix-parallellgatan/,https://www.openstreetmap.org/node/12511119417,65.8545954,23.1443762,robot_mower_seller,,,,Parallellgatan,13,952 33,Kalix,"Parallellgatan 13, 952 33 Kalix"
+node/12540046404,thansen,https://www.thansen.se/,https://www.openstreetmap.org/node/12540046404,55.8751885,12.8587712,robot_mower_seller,,,,Frögatan,,,,Frögatan
+node/12555943336,Roctexo Aerospace,https://www.roctexo.com,https://www.openstreetmap.org/node/12555943336,57.178708,14.0585612,robot_mower_seller,,,,Malmövägen,12,33142,Värnamo,"Malmövägen 12, 33142 Värnamo"
+node/12560115241,Elgiganten,https://www.elgiganten.se/,https://www.openstreetmap.org/node/12560115241,59.616854,17.848422,robot_mower_seller,,,,,,,,
+node/12695051611,JULA,https://www.jula.se/vara-varuhus/vasteras-halla/,https://www.openstreetmap.org/node/12695051611,59.6081343,16.6093171,robot_mower_seller,,,,Kranbyggargatan,10,72134,Västerås,"Kranbyggargatan 10, 72134 Västerås"
+node/12703668639,Bolist Jonssons Trä,https://www.facebook.com/p/Jonssons-Trä-AB-100063680647917/,https://www.openstreetmap.org/node/12703668639,56.8701385,16.6635275,robot_mower_seller,,,,Fabriksvägen,4,387 36,Borgholm,"Fabriksvägen 4, 387 36 Borgholm"
+node/12875770242,XL-BYGG Skärhamn,https://www.xlbygg.se/butiker/xl-bygg-skarhamn/,https://www.openstreetmap.org/node/12875770242,57.9863439,11.5597458,robot_mower_seller,,,,Enebacken,3,47133,Skärhamn,"Enebacken 3, 47133 Skärhamn"
+node/12905453262,Byggmax,https://www.byggmax.se/shops/shop/info/store_number/1338/,https://www.openstreetmap.org/node/12905453262,59.2129824,17.9261723,robot_mower_seller,,,,Alfred Nobels Allé,107,14648,Tullinge,"Alfred Nobels Allé 107, 14648 Tullinge"
+node/12972955441,Lilla trädgårdsbutiken,https://www.lillatradgardsbutiken.se/,https://www.openstreetmap.org/node/12972955441,57.7524993,12.1833417,robot_mower_seller,,,,,,,,
+node/13005404292,JULA,https://www.jula.se/vara-varuhus/vasteras-erikslund/,https://www.openstreetmap.org/node/13005404292,59.6094797,16.464273,robot_mower_seller,,,,Hallsta Gårdsgata,7,72138,Västerås,"Hallsta Gårdsgata 7, 72138 Västerås"
+node/13072942309,Elon,https://www.elon.se,https://www.openstreetmap.org/node/13072942309,59.4282276,17.9510493,robot_mower_seller,,,,Sollentunavägen,163C,19147,Sollentuna,"Sollentunavägen 163C, 19147 Sollentuna"
+node/13136652474,Gissléns Villa-Mark-Trädgård,https://www.gisslens.se/,https://www.openstreetmap.org/node/13136652474,57.5763937,12.0896179,robot_mower_seller,,,,Smidesvägen,6,437 36,Lindome,"Smidesvägen 6, 437 36 Lindome"
+way/5345174,Slottsträdgården Ulriksdal,http://www.rappne.nu,https://www.openstreetmap.org/way/5345174,59.3930501,18.0095558,robot_mower_seller,,,,,,,,
+way/9076221,Bygma,https://www.bygma.se/webshop/webshop.aspx,https://www.openstreetmap.org/way/9076221,59.514385,17.899934,robot_mower_seller,,,,Optimusvägen,37,194 34,Upplands Väsby,"Optimusvägen 37, 194 34 Upplands Väsby"
+way/15351156,Beijer Byggmaterial,https://www.beijerbygg.se/privat/sv/jarfalla,https://www.openstreetmap.org/way/15351156,59.4102003,17.8402853,robot_mower_seller,,,,Nettovägen,4,175 41,Järfälla,"Nettovägen 4, 175 41 Järfälla"
+way/15676113,Elgiganten,https://www.elgiganten.se/store/elgiganten-barkarby,https://www.openstreetmap.org/way/15676113,59.421634,17.854593,robot_mower_seller,,,,Enköpingsvägen,39,17738,,"Enköpingsvägen 39, 17738"
+way/17960819,Ahlsell,https://www.ahlsell.se/butiker/kungens-kurva/,https://www.openstreetmap.org/way/17960819,59.2684912,17.9219989,robot_mower_seller,,,,Tangentvägen,3,141 75,Kungens Kurva,"Tangentvägen 3, 141 75 Kungens Kurva"
+way/27570277,Åkersberga Växtförsäljning,https://www.bergavaxter.se/,https://www.openstreetmap.org/way/27570277,59.4919614,18.265885,robot_mower_seller,,,,Stora Säbyvägen,1,184 42,Åkersberga,"Stora Säbyvägen 1, 184 42 Åkersberga"
+way/28082382,Jula,https://www.jula.se/vara-varuhus/stockholm-bromma/,https://www.openstreetmap.org/way/28082382,59.3573733,17.9493161,robot_mower_seller,,,,Ulvsundavägen,191,168 67,Bromma,"Ulvsundavägen 191, 168 67 Bromma"
+way/28244394,Biltema,https://www.biltema.se/varuhus-och-oppettider/goteborg-backaplan/,https://www.openstreetmap.org/way/28244394,57.7260207,11.9619317,robot_mower_seller,,,,Östra Magårdsvägen,4,417 30,,"Östra Magårdsvägen 4, 417 30"
+way/28499843,Wiberger,https://www.wiberger.se/,https://www.openstreetmap.org/way/28499843,57.7607342,11.9962539,robot_mower_seller,,,,Transportgatan,5A,422 46,Hisings Backa,"Transportgatan 5A, 422 46 Hisings Backa"
+way/35111392,Biltema,https://www.biltema.se/sv/Varuhus/uppsala/,https://www.openstreetmap.org/way/35111392,59.8496744,17.6899337,robot_mower_seller,,,,Bolandsgatan,17,753 23,Uppsala,"Bolandsgatan 17, 753 23 Uppsala"
+way/36820846,HORNBACH,https://www.hornbach.se,https://www.openstreetmap.org/way/36820846,57.7305375,11.9468634,robot_mower_seller,,,,Minelundsvägen,8,41705,Göteborg,"Minelundsvägen 8, 41705 Göteborg"
+way/37856727,Bauhaus,https://www.bauhaus.se,https://www.openstreetmap.org/way/37856727,55.5518698,12.9976665,robot_mower_seller,,,,Nornegatan,8,215 86,,"Nornegatan 8, 215 86"
+way/45316394,Plantagen,https://www.plantagen.se/butiker/butik/?sid=336,https://www.openstreetmap.org/way/45316394,57.6446254,11.9381906,robot_mower_seller,,,,Askims Pilegårdsväg,1,436 34,,"Askims Pilegårdsväg 1, 436 34"
+way/47848890,Plantagen,https://www.plantagen.se/butiker/butik/?sid=341,https://www.openstreetmap.org/way/47848890,60.6081537,15.6565152,robot_mower_seller,,,,Bataljonsvägen,7,,Falun,"Bataljonsvägen 7, Falun"
+way/54150036,Beijer Byggmaterial,https://www.beijerbygg.se/privat/sv/malmo-dalaplan,https://www.openstreetmap.org/way/54150036,55.5827304,13.0093127,robot_mower_seller,,,,Fosievägen,2,21431,Malmö,"Fosievägen 2, 21431 Malmö"
+way/56058154,Stackmora Trädgård,http://www.stackmora.com,https://www.openstreetmap.org/way/56058154,61.1296375,14.6748424,robot_mower_seller,,,,,,,,
+way/60093271,Torsångs Handelsträdgård,https://www.torsangshandelstradgard.se/,https://www.openstreetmap.org/way/60093271,60.4633671,15.5569552,robot_mower_seller,,,,,113,781 94,Borlänge,781 94 Borlänge
+way/60523544,Billbäcks plantskola,https://www.billbacks.se,https://www.openstreetmap.org/way/60523544,58.6463211,16.0346408,robot_mower_seller,,,,,,,,
+way/69557763,Biltema,https://www.biltema.se/,https://www.openstreetmap.org/way/69557763,58.4300009,15.5897645,robot_mower_seller,,,,Västra Svedengatan,1,,Linköping,"Västra Svedengatan 1, Linköping"
+way/87285659,Växtvaruhuset,https://www.vaxtvaruhuset.se/,https://www.openstreetmap.org/way/87285659,63.1500313,14.7015121,robot_mower_seller,,,,Växthusvägen,2,83192,Östersund,"Växthusvägen 2, 83192 Östersund"
+way/87452614,Ernst P,https://ernstp.se/,https://www.openstreetmap.org/way/87452614,57.6437874,12.0291617,robot_mower_seller,,,,Möbelgatan,5,431 33,Mölndal,"Möbelgatan 5, 431 33 Mölndal"
+way/88052634,Granngården,https://www.granngarden.se/,https://www.openstreetmap.org/way/88052634,63.1619059,14.6535965,robot_mower_seller,,,,Bangårdsgatan,40,83145,Östersund,"Bangårdsgatan 40, 83145 Östersund"
+way/88052694,AB Karl Hedin Bygghandel,https://www.abkarlhedin.se/bygghandel/,https://www.openstreetmap.org/way/88052694,63.1615184,14.6547067,robot_mower_seller,,,,,,,,
+way/88291242,Granngården,http://www.granngarden.se/,https://www.openstreetmap.org/way/88291242,58.3159079,12.3119989,robot_mower_seller,,,,,,,,
+way/89799160,Biltema,http://www.biltema.se/sv/varuhus/karlstad/,https://www.openstreetmap.org/way/89799160,59.3766596,13.4389779,robot_mower_seller,,,,Ullebergsleden,4,,,Ullebergsleden 4
+way/90393997,Beijer Byggmaterial,https://www.beijerbygg.se/webapp/wcs/stores/servlet/privat/sv/karlskrona,https://www.openstreetmap.org/way/90393997,56.1731587,15.5934151,robot_mower_seller,,,,Blåportsgatan,4A,37142,Karlskrona,"Blåportsgatan 4A, 37142 Karlskrona"
+way/93088734,Elgiganten,https://www.elgiganten.se/store/elgiganten-skelleftea,https://www.openstreetmap.org/way/93088734,64.7357957,20.9652015,robot_mower_seller,,,,Tjärnvägen,1,931 61,Skellefteå,"Tjärnvägen 1, 931 61 Skellefteå"
+way/95008048,Biltema,https://www.biltema.se/sv/varuhus/Jonkoping/,https://www.openstreetmap.org/way/95008048,57.7629911,14.1862851,robot_mower_seller,,,,Solåsvägen,26,55303,Jönköping,"Solåsvägen 26, 55303 Jönköping"
+way/95422090,Plantagen,https://www.plantagen.se/butiker/butik/?sid=307,https://www.openstreetmap.org/way/95422090,58.4338672,15.5938996,robot_mower_seller,,,,Grytstorpsgatan,8,582 73,Linköping,"Grytstorpsgatan 8, 582 73 Linköping"
+way/95640442,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/way/95640442,56.0429694,14.1581344,robot_mower_seller,,,,,,,,
+way/95913361,XL-Bygg,https://www.xlbygg.se/butiker/xl-bygg-linkoping/,https://www.openstreetmap.org/way/95913361,58.4207022,15.5941844,robot_mower_seller,,,,Lärlingsgatan,2,582 39,Linköping,"Lärlingsgatan 2, 582 39 Linköping"
+way/95953041,K Bygg Färingsö Trä,https://k-bygg.se/faringso/,https://www.openstreetmap.org/way/95953041,59.3095261,17.7745066,robot_mower_seller,,,,Färentunavägen,65,17975,Skå,"Färentunavägen 65, 17975 Skå"
+way/97327341,Biltema,https://www.biltema.se/sv/varuhus/helsingborg/,https://www.openstreetmap.org/way/97327341,56.0784973,12.7343344,robot_mower_seller,,,,Garnisonsgatan,26,254 66,Helsingborg,"Garnisonsgatan 26, 254 66 Helsingborg"
+way/102730466,NetOnNet,https://www.netonnet.se/,https://www.openstreetmap.org/way/102730466,56.8829744,14.7624409,robot_mower_seller,,,,Hejaregatan,13,352 46,Växjö,"Hejaregatan 13, 352 46 Växjö"
+way/102730493,Elgiganten,https://www.elgiganten.se/,https://www.openstreetmap.org/way/102730493,56.8817839,14.7626482,robot_mower_seller,,,,Handelsvägen,3,352 46,Växjö,"Handelsvägen 3, 352 46 Växjö"
+way/103194590,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/way/103194590,56.8934126,14.7659787,robot_mower_seller,,,,,,,,
+way/105637353,Biltema,https://www.biltema.se/sv/varuhus/Sundsvall/,https://www.openstreetmap.org/way/105637353,62.4428359,17.3392734,robot_mower_seller,,,,Norra vägen,99,863 37,Sundsvall,"Norra vägen 99, 863 37 Sundsvall"
+way/113588487,Hudiksvalls Järn,http://www.hudiksvallsjarn.se,https://www.openstreetmap.org/way/113588487,61.7262315,17.1209135,robot_mower_seller,,,,Sjögatan,5,,,Sjögatan 5
+way/116043598,"Maskin & Fritid, Hyresmaskiner",https://www.maskinochfritid.se/,https://www.openstreetmap.org/way/116043598,56.1968103,15.6658923,robot_mower_seller,,,,Kummelvägen,2,371 60,Lyckeby,"Kummelvägen 2, 371 60 Lyckeby"
+way/117864253,Plantagen,https://www.plantagen.se/,https://www.openstreetmap.org/way/117864253,59.4160264,17.8619009,robot_mower_seller,,,,,,,,
+way/121177153,Beijer byggmaterial,https://beijerbygg.se/,https://www.openstreetmap.org/way/121177153,63.840804,20.2041036,robot_mower_seller,,,,,,,,
+way/122228531,Färghuset,https://www.painthouse.se,https://www.openstreetmap.org/way/122228531,59.4809036,18.2810847,robot_mower_seller,,,,,,,,
+way/122983981,Dahl,https://www.dahl.se/store/dahl/hitta-butik/dahlcenter-%C3%B6stersund--130,https://www.openstreetmap.org/way/122983981,63.1892268,14.6474429,robot_mower_seller,,,,Arenavägen,3,83132,Östersund,"Arenavägen 3, 83132 Östersund"
+way/124541851,Ahlsell Umeå,https://www.ahlsell.se/butiker/umea/,https://www.openstreetmap.org/way/124541851,63.837403,20.2429372,robot_mower_seller,,,,,,,,
+way/132486250,jem & fix,https://www.jemfix.se/hitta-butik/avesta/,https://www.openstreetmap.org/way/132486250,60.1455427,16.1724181,robot_mower_seller,,,,,,,,
+way/135887362,Swedol,http://www.swedol.se,https://www.openstreetmap.org/way/135887362,57.7421662,11.9934861,robot_mower_seller,,,,Exportgatan,26,422 46,Hisings Backa,"Exportgatan 26, 422 46 Hisings Backa"
+way/138276223,Fridhems Handelsträdgård,https://www.facebook.com/FridhemsHandelstradgardIGustafs,https://www.openstreetmap.org/way/138276223,60.4171705,15.5762412,robot_mower_seller,,,,Naglarbyvägen,55,783 50,Gustafs,"Naglarbyvägen 55, 783 50 Gustafs"
+way/141479568,Bengts Färg Nordsjö,http://www.tapetrullen.com/,https://www.openstreetmap.org/way/141479568,56.2009455,15.6379722,robot_mower_seller,,,,Järavägen,10,371 50,Karlskrona,"Järavägen 10, 371 50 Karlskrona"
+way/141479572,Elda Butiken,https://eldabutiken.se/butik/karlskrona/,https://www.openstreetmap.org/way/141479572,56.2005901,15.6375512,robot_mower_seller,,,,Järavägen,14,37150,Karlskrona,"Järavägen 14, 37150 Karlskrona"
+way/144327848,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/way/144327848,56.2157584,15.6364153,robot_mower_seller,,,,Uranvägen,3,37149,Karlskrona,"Uranvägen 3, 37149 Karlskrona"
+way/147865010,Elgiganten,https://www.elgiganten.se/store/elgiganten-bromma,https://www.openstreetmap.org/way/147865010,59.3568347,17.9515749,robot_mower_seller,,,,Ulvsundavägen,189C,168 67,Bromma,"Ulvsundavägen 189C, 168 67 Bromma"
+way/148258735,Åhus Marina,http://www.ahusmarina.se/,https://www.openstreetmap.org/way/148258735,55.9240025,14.3037226,robot_mower_seller,,,,,,,,
+way/151847699,Bergslagscenter,http://www.bergslagscenter.se/,https://www.openstreetmap.org/way/151847699,59.3041553,14.5008522,robot_mower_seller,,,,,,,,
+way/151847700,Jem & Fix,http://www.jemfix.se/,https://www.openstreetmap.org/way/151847700,59.2996975,14.4931746,robot_mower_seller,,,,Skogsbovägen,8,691 47,Karlskoga,"Skogsbovägen 8, 691 47 Karlskoga"
+way/151847702,Happy Homes,http://www.happyhomes.se/,https://www.openstreetmap.org/way/151847702,59.3010965,14.4957504,robot_mower_seller,,,,,,,,
+way/152301714,Bauhaus,https://www.bauhaus.se/,https://www.openstreetmap.org/way/152301714,58.3524086,11.8044114,robot_mower_seller,,,,,,45176,Uddevalla,45176 Uddevalla
+way/152732226,Biltema,https://www.biltema.se/sv/varuhus/lulea/,https://www.openstreetmap.org/way/152732226,65.6186089,22.0549616,robot_mower_seller,,,,Betongvägen,1,97345,Luleå,"Betongvägen 1, 97345 Luleå"
+way/154908927,Plantagen,https://www.plantagen.se/butiker/butik/?sid=340,https://www.openstreetmap.org/way/154908927,59.2985373,15.1992084,robot_mower_seller,,,,Monologgatan,2,703 70,Örebro,"Monologgatan 2, 703 70 Örebro"
+way/159301191,Wirenstedt Rental,https://www.wirenstedt.com/,https://www.openstreetmap.org/way/159301191,56.1807368,15.6273575,robot_mower_seller,,,,Gamla Källvägen,3,37142,Karlskrona,"Gamla Källvägen 3, 37142 Karlskrona"
+way/160085552,Biltema,https://www.biltema.se/sv/varuhus/Karlskrona/,https://www.openstreetmap.org/way/160085552,56.2052584,15.6384906,robot_mower_seller,,,,Gullbernavägen,24B,37147,Karlskrona,"Gullbernavägen 24B, 37147 Karlskrona"
+way/168164791,Reftele Lantmän,http://lantisireftele.se,https://www.openstreetmap.org/way/168164791,57.1760124,13.5915223,robot_mower_seller,,,,,,,,
+way/170759157,Trädgården i ursviken,http://www.tradgardeniursviken.se/,https://www.openstreetmap.org/way/170759157,64.7186111,21.1711127,robot_mower_seller,,,,,,,,
+way/172300116,Biltema,https://www.biltema.se/sv/varuhus/Mora/,https://www.openstreetmap.org/way/172300116,61.006937,14.6029229,robot_mower_seller,,,,,,,,
+way/175446828,Bauhaus,https://www.bauhaus.se/varuhus/stora-bernstorp,https://www.openstreetmap.org/way/175446828,55.6127528,13.1064189,robot_mower_seller,,,,Vassvägen,26,23261,Arlöv,"Vassvägen 26, 23261 Arlöv"
+way/177916047,Biltema,https://www.biltema.se/sv/varuhus/Lund/,https://www.openstreetmap.org/way/177916047,55.6883055,13.2189477,robot_mower_seller,,,,Porfyrvägen,25,224 78,Lund,"Porfyrvägen 25, 224 78 Lund"
+way/180154644,Biltema,https://www.biltema.se/varuhus-och-oppettider/orebro/,https://www.openstreetmap.org/way/180154644,59.2957471,15.2104709,robot_mower_seller,,,,Ozongatan,3,703 74,Örebro,"Ozongatan 3, 703 74 Örebro"
+way/182041279,Bygg-Ole,https://www.beijerbygg.se/byggole,https://www.openstreetmap.org/way/182041279,59.3110077,18.4233731,robot_mower_seller,,,,,,,,
+way/185557357,Biltema,https://www.biltema.se/sv/varuhus/kristianstad/,https://www.openstreetmap.org/way/185557357,56.0231879,14.1136383,robot_mower_seller,,,,Öllegårds väg,2,,,Öllegårds väg 2
+way/185557358,Blomsterlandet,https://www.blomsterlandet.se/hitta-din-butik/kristianstad/,https://www.openstreetmap.org/way/185557358,56.0218757,14.1119938,robot_mower_seller,,,,,,,,
+way/194602653,Granngården,http://www.granngarden.se/store/Karlskrona,https://www.openstreetmap.org/way/194602653,59.3201219,14.4646982,robot_mower_seller,,,,,,,,
+way/197430898,Granngården,https://www.granngarden.se/,https://www.openstreetmap.org/way/197430898,60.4778568,15.4068901,robot_mower_seller,,,,Nygårdsvägen,13,781 70,Borlänge,"Nygårdsvägen 13, 781 70 Borlänge"
+way/197535326,Granngården,http://www.granngarden.se/store/Motala,https://www.openstreetmap.org/way/197535326,58.5566534,15.0613157,robot_mower_seller,,,,,,,,
+way/200178106,HORNBACH,https://www.hornbach.se/varuhusinfo/arlov/,https://www.openstreetmap.org/way/200178106,55.6116112,13.0961281,robot_mower_seller,,,,Vassvägen,10,23261,Arlöv,"Vassvägen 10, 23261 Arlöv"
+way/203177488,C-B Stål & Metall AB,http://c-b.se/,https://www.openstreetmap.org/way/203177488,59.3293984,14.5823871,robot_mower_seller,,,,Pressarvägen,10,69152,Karlskoga,"Pressarvägen 10, 69152 Karlskoga"
+way/206373819,Bolist Lomma,https://bolist.se/butiker/lomma/,https://www.openstreetmap.org/way/206373819,55.671771,13.0686773,robot_mower_seller,,,,Strandvägen,100,,Lomma,"Strandvägen 100, Lomma"
+way/207305514,Solhaga,https://solhaga.se,https://www.openstreetmap.org/way/207305514,56.002336,14.137251,robot_mower_seller,,,,,,,,
+way/207753161,Upplands Kyl & Värme AB,https://www.upplandskylovarme.se/,https://www.openstreetmap.org/way/207753161,59.8644226,17.6030086,robot_mower_seller,,,,Tiundagatan,59,75230,Uppsala,"Tiundagatan 59, 75230 Uppsala"
+way/207757610,Lundagrossisten,https://lundagrossisten.se/warehouses/uppsala.html,https://www.openstreetmap.org/way/207757610,59.8681002,17.6062696,robot_mower_seller,,,,Börjegatan,66,75229,Uppsala,"Börjegatan 66, 75229 Uppsala"
+way/211891839,Biltema,https://www.biltema.se/sv/varuhus/halmstad/,https://www.openstreetmap.org/way/211891839,56.6646148,12.9075495,robot_mower_seller,,,,Stormgatan,1,,,Stormgatan 1
+way/222269401,Kålltorps Handelsträdgård,https://www.kalltorpshandelstradgard.se,https://www.openstreetmap.org/way/222269401,57.7118985,12.0186363,robot_mower_seller,,,,Kyrkåsplatsen,10,416 52,Göteborg,"Kyrkåsplatsen 10, 416 52 Göteborg"
+way/222317941,Pyssel- och Hantverksboden,https://www.pysselochhantverksboden.se,https://www.openstreetmap.org/way/222317941,58.2154461,13.4628437,robot_mower_seller,,,,Vilske-Kleva Sofielund,,521 94,Falköping,"Vilske-Kleva Sofielund, 521 94 Falköping"
+way/224917067,Rydlinge plantskola,http://www.rydlingeplantskola.se/,https://www.openstreetmap.org/way/224917067,64.725289,21.0625341,robot_mower_seller,,,,,,,,
+way/230066594,Biltema,https://www.biltema.se/varuhus-och-oppettider/stockholm-veddesta,https://www.openstreetmap.org/way/230066594,59.4096687,17.8453913,robot_mower_seller,,,,Nettovägen,2,175 41,Järfälla,"Nettovägen 2, 175 41 Järfälla"
+way/230240679,Ingarö Brädgård,http://ingarobradgard.se/,https://www.openstreetmap.org/way/230240679,59.2753951,18.4355582,robot_mower_seller,,,,Entreprenadvägen,,134 60,Ingarö,"Entreprenadvägen, 134 60 Ingarö"
+way/236884056,Bauhaus,https://www.bauhaus.se/varuhus/uppsala,https://www.openstreetmap.org/way/236884056,59.8487773,17.6881732,robot_mower_seller,,,,Verkstadsgatan,16,753 23,Uppsala,"Verkstadsgatan 16, 753 23 Uppsala"
+way/237258070,Swedol,https://www.swedol.se,https://www.openstreetmap.org/way/237258070,59.404345,17.8436839,robot_mower_seller,,,,Kontovägen,5,17562,,"Kontovägen 5, 17562"
+way/237903116,Byggmax,https://www.byggmax.se/butiker/gbg-partille,https://www.openstreetmap.org/way/237903116,57.7396153,12.1338485,robot_mower_seller,,,,Gamla Alingsåsvägen,24,,Partille,"Gamla Alingsåsvägen 24, Partille"
+way/247405954,Biltema,https://www.biltema.se/varuhus-och-oppettider/goteborg-partille/,https://www.openstreetmap.org/way/247405954,57.7402943,12.124364,robot_mower_seller,,,,Arenavägen,17-19,433 33,Partille,"Arenavägen 17-19, 433 33 Partille"
+way/248128361,Hejdes Woody bygghandel,https://hejdes-landskrona.woody.se/,https://www.openstreetmap.org/way/248128361,55.8841408,12.8476555,robot_mower_seller,,,,Lodjursgatan,4 A,,Landskrona,"Lodjursgatan 4 A, Landskrona"
+way/249334431,Biltema,https://www.biltema.se/sv/varuhus/Vetlanda/,https://www.openstreetmap.org/way/249334431,57.441193,15.0609704,robot_mower_seller,,,,Dikesvägen,1,57435,Vetlanda,"Dikesvägen 1, 57435 Vetlanda"
+way/249337210,Jem & Fix,https://www.jemfix.se/,https://www.openstreetmap.org/way/249337210,57.4434335,15.0667828,robot_mower_seller,,,,Kolvägen,11,57435,Vetlanda,"Kolvägen 11, 57435 Vetlanda"
+way/249399493,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/way/249399493,57.4436137,15.0613044,robot_mower_seller,,,,Nydalavägen,4,57435,Vetlanda,"Nydalavägen 4, 57435 Vetlanda"
+way/250948752,BSIAB,https://www.bsiab.se/,https://www.openstreetmap.org/way/250948752,59.3193179,14.460018,robot_mower_seller,,,,Elementvägen,5,69142,Karlskoga,"Elementvägen 5, 69142 Karlskoga"
+way/251858868,Biltema,https://www.biltema.se/sv/varuhus/Vaxjo/,https://www.openstreetmap.org/way/251858868,56.8789633,14.7616727,robot_mower_seller,,,,Vaktvägen,1,352 36,Växjö,"Vaktvägen 1, 352 36 Växjö"
+way/252694413,Ställning.se,https://www.stallning.se,https://www.openstreetmap.org/way/252694413,59.3240408,14.485535,robot_mower_seller,,,,,,,,
+way/268059365,Granngården,http://www.granngarden.se/store/Eslöv,https://www.openstreetmap.org/way/268059365,55.8427358,13.3106518,robot_mower_seller,,,,Bruksgatan,6,241 39,Eslöv,"Bruksgatan 6, 241 39 Eslöv"
+way/268059368,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/way/268059368,55.8435291,13.3095248,robot_mower_seller,,,,,,,,
+way/272406341,XL Bygg,https://www.beijerbygg.se/,https://www.openstreetmap.org/way/272406341,58.0397117,12.8014959,robot_mower_seller,,,,,,,,
+way/274007528,Rudolphis Järn,https://facebook.com/rudolphisjarn,https://www.openstreetmap.org/way/274007528,61.8003359,16.5514789,robot_mower_seller,,,,Köpmangatan,7,82471,Delsbo,"Köpmangatan 7, 82471 Delsbo"
+way/274128934,GJ Maskin AB,https://www.gjmaskin.se/,https://www.openstreetmap.org/way/274128934,58.1613172,13.5697848,robot_mower_seller,,,,,,,,
+way/274710382,Kungälvs Garden Center,https://kungalvsgardencenter.se/,https://www.openstreetmap.org/way/274710382,57.8720967,11.9340958,robot_mower_seller,,,,,,,,
+way/278787512,Biltema,https://www.biltema.se/,https://www.openstreetmap.org/way/278787512,59.2968621,14.4900559,robot_mower_seller,,,,Skogsbovägen,16,69147,Karlskoga,"Skogsbovägen 16, 69147 Karlskoga"
+way/281502608,Biltema,https://www.biltema.se/,https://www.openstreetmap.org/way/281502608,59.7453897,18.6792354,robot_mower_seller,,,,August Strindbergs gata,5,761 46,Norrtälje,"August Strindbergs gata 5, 761 46 Norrtälje"
+way/281518600,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/way/281518600,59.7679637,18.6873454,robot_mower_seller,,,,Storstensvägen,,761 63,Norrtälje,"Storstensvägen, 761 63 Norrtälje"
+way/286066314,Landtmannaaffären,https://landtmannaaffaren.se/,https://www.openstreetmap.org/way/286066314,56.2180326,15.2690395,robot_mower_seller,,,,,,,,
+way/287788201,Biltema,https://www.biltema.se/,https://www.openstreetmap.org/way/287788201,58.6246775,16.1565794,robot_mower_seller,,,,Koppargatan,34,602 23,Norrköping,"Koppargatan 34, 602 23 Norrköping"
+way/288481655,Jem & Fix,https://www.jemfix.se/,https://www.openstreetmap.org/way/288481655,56.2202964,15.2655888,robot_mower_seller,,,,,,,,
+way/288481659,Ronneby Maskinaffär,https://www.ronnebymaskin.se/,https://www.openstreetmap.org/way/288481659,56.2199417,15.2701653,robot_mower_seller,,,,,,,,
+way/289041405,Göta Motorer,https://www.gotamotor.com/,https://www.openstreetmap.org/way/289041405,56.389315,13.9855449,robot_mower_seller,,,,,,,,
+way/290662760,Jem & Fix,https://www.jemfix.se/,https://www.openstreetmap.org/way/290662760,56.1874394,14.8461093,robot_mower_seller,,,,,,,,
+way/291502872,Elgiganten,https://www.elgiganten.se/stores/blekinge-lan/karlshamn/karlshamn,https://www.openstreetmap.org/way/291502872,56.1871729,14.8458956,robot_mower_seller,,,,,,,,
+way/293538206,Tools Vetlanda,https://www.tools.se/,https://www.openstreetmap.org/way/293538206,57.4217601,15.0906794,robot_mower_seller,,,,Lasarettsgatan,25,57440,Vetlanda,"Lasarettsgatan 25, 57440 Vetlanda"
+way/297349888,Byggmax,https://www.byggmax.se/butiker/nyk%C3%B6ping,https://www.openstreetmap.org/way/297349888,58.7700119,17.0162263,robot_mower_seller,,,,Gustafsbergsstigen,20,611 67,Nyköping,"Gustafsbergsstigen 20, 611 67 Nyköping"
+way/301226973,Hedin Bygghandel,http://www.abkarlhedin.se/bygghandel/karta/mora/,https://www.openstreetmap.org/way/301226973,61.0084477,14.5927136,robot_mower_seller,,,,Skålmyrsvägen,37,79250,Mora,"Skålmyrsvägen 37, 79250 Mora"
+way/306846564,Mairo,https://www.mairo.se/,https://www.openstreetmap.org/way/306846564,56.2327012,15.1156134,robot_mower_seller,,,,,,,,
+way/307363594,Hakarps Ved,https://hakarpsved.se/,https://www.openstreetmap.org/way/307363594,56.2501932,15.3995568,robot_mower_seller,,,,,,,,
+way/308062252,Jula,https://www.jula.se/vara-varuhus/karlskrona/,https://www.openstreetmap.org/way/308062252,56.204519,15.6394958,robot_mower_seller,,,,,,,,
+way/312653787,Granngården,http://www.granngarden.se/store/Uddevalla,https://www.openstreetmap.org/way/312653787,58.3490642,11.8269742,robot_mower_seller,,,,,,,,
+way/312680998,Biltema,https://www.biltema.se/sv/varuhus/Vastervik/,https://www.openstreetmap.org/way/312680998,57.7679648,16.592307,robot_mower_seller,,,,,,,,
+way/312986998,Jem & fix,https://www.jemfix.se/,https://www.openstreetmap.org/way/312986998,57.7512066,16.629703,robot_mower_seller,,,,,,,,
+way/315908921,Byggmax,https://www.byggmax.se/butiker/visby,https://www.openstreetmap.org/way/315908921,57.6265172,18.2775587,robot_mower_seller,,,,,,,,
+way/323565416,Hyrpoolen Nacka,https://www.hyrpoolen.se/uthyrningssortiment/,https://www.openstreetmap.org/way/323565416,59.3153519,18.2007507,robot_mower_seller,,,,Ektorpsvägen,26A,131 47,Nacka,"Ektorpsvägen 26A, 131 47 Nacka"
+way/324236909,Lindkvist Järn,https://www.bolist.se/taberg,https://www.openstreetmap.org/way/324236909,57.6751232,14.0916917,robot_mower_seller,,,,Sjöhultsvägen,17,56241,Taberg,"Sjöhultsvägen 17, 56241 Taberg"
+way/328047494,Granngården,http://www.granngarden.se/store/Kungsbacka,https://www.openstreetmap.org/way/328047494,57.4842585,12.080523,robot_mower_seller,,,,,,,,
+way/338051404,NetOnNet,https://www.netonnet.se/lagershop/1/malmo,https://www.openstreetmap.org/way/338051404,55.6239874,13.063572,robot_mower_seller,,,,Ågatan,1,21225,Malmö,"Ågatan 1, 21225 Malmö"
+way/343619202,Bauhaus,https://www.bauhaus.se/,https://www.openstreetmap.org/way/343619202,58.4333388,15.6087455,robot_mower_seller,,,,Östra Svedengatan,31,582 73,Linköping,"Östra Svedengatan 31, 582 73 Linköping"
+way/349606479,Flower Team,https://www.flowerteam.se/,https://www.openstreetmap.org/way/349606479,56.0923049,12.7693417,robot_mower_seller,,,,Djurhagshusvägen,17,260 36,Ödåkra-Väla,"Djurhagshusvägen 17, 260 36 Ödåkra-Väla"
+way/351863215,K-Bygg Fresks,https://k-bygg.se/kontakt/vara-butiker/harnosand,https://www.openstreetmap.org/way/351863215,62.6531362,17.8880731,robot_mower_seller,,,,Saltviksvägen,13,871 54,Härnösand,"Saltviksvägen 13, 871 54 Härnösand"
+way/358708069,Mellanmossens Perenner HB,http://mellanmossensperenner.teliaweb.se/,https://www.openstreetmap.org/way/358708069,56.0353745,12.8454841,robot_mower_seller,,,,Mellanmossevägen,102,25353,Påarp,"Mellanmossevägen 102, 25353 Påarp"
+way/358712123,Hornbach,https://www.hornbach.se/,https://www.openstreetmap.org/way/358712123,56.077427,12.7397814,robot_mower_seller,,,,Dioritgatan,12,254 64,Helsingborg,"Dioritgatan 12, 254 64 Helsingborg"
+way/362954611,Jem & Fix,https://www.jemfix.se/,https://www.openstreetmap.org/way/362954611,59.0764328,15.0978257,robot_mower_seller,,,,Överste von Rosens Gata,1,,Hallsberg,"Överste von Rosens Gata 1, Hallsberg"
+way/363286468,ABK Tekniska,http://www.abktekniska.se/,https://www.openstreetmap.org/way/363286468,56.2176138,15.2709748,robot_mower_seller,,,,,,,,
+way/367139653,Granngården,http://www.granngarden.se/store/Fjugesta,https://www.openstreetmap.org/way/367139653,59.1702081,14.8811193,robot_mower_seller,,,,,,,,
+way/376258654,Granngården,https://www.granngarden.se/,https://www.openstreetmap.org/way/376258654,58.7244304,11.3290573,robot_mower_seller,,,,Industrivägen,5A,457 31,Tanumshede,"Industrivägen 5A, 457 31 Tanumshede"
+way/381814117,Granngården,https://www.granngarden.se/butiker/karlstad,https://www.openstreetmap.org/way/381814117,59.3739089,13.445212,robot_mower_seller,,,,,,,,
+way/384631333,Swedol,https://www.swedol.se/swedol-borlange,https://www.openstreetmap.org/way/384631333,60.4736905,15.4318337,robot_mower_seller,,,,Mästargatan,7,781 71,Borlänge,"Mästargatan 7, 781 71 Borlänge"
+way/386993482,Gunnarssons maskin AB,https://www.gunnarssons-maskin.se/,https://www.openstreetmap.org/way/386993482,57.170851,13.593796,robot_mower_seller,,,,Kållerstadsvägen,1,330 21,Reftele,"Kållerstadsvägen 1, 330 21 Reftele"
+way/393494557,Jirvelius store,https://www.jirvelius.com/,https://www.openstreetmap.org/way/393494557,59.1852995,14.8674509,robot_mower_seller,,,,Vallgatan,45,71631,Fjugesta,"Vallgatan 45, 71631 Fjugesta"
+way/415137069,Bauhaus,https://www.bauhaus.se/varuhus/upplands-vasby,https://www.openstreetmap.org/way/415137069,59.5000919,17.9227887,robot_mower_seller,,,,Kranvägen,8,19461,Upplands Väsby,"Kranvägen 8, 19461 Upplands Väsby"
+way/415203083,Bauhaus,https://www.bauhaus.se/varuhus/hyllinge,https://www.openstreetmap.org/way/415203083,56.0989777,12.855392,robot_mower_seller,,,,Brännaregatan,2,26575,Hyllinge,"Brännaregatan 2, 26575 Hyllinge"
+way/420098816,Klippnet AB,http://www.klippnet.se/,https://www.openstreetmap.org/way/420098816,58.473418,13.9264477,robot_mower_seller,,,,Stora vägen,11,54191,Skövde,"Stora vägen 11, 54191 Skövde"
+way/420803137,Biltema,https://www.biltema.se/sv/varuhus/Ljungby/,https://www.openstreetmap.org/way/420803137,56.81205,13.9057907,robot_mower_seller,,,,,,,,
+way/422113225,Granngården,https://www.granngarden.se/store/Ljungby?lat=56.829&long=13.937,https://www.openstreetmap.org/way/422113225,56.8286491,13.9367821,robot_mower_seller,,,,Fabriksgatan,7,341 31,Ljungby,"Fabriksgatan 7, 341 31 Ljungby"
+way/426020389,Tibro Skog & Trädgårdsmaskiner,https://www.tibroskog.se/default,https://www.openstreetmap.org/way/426020389,58.4174747,14.1329597,robot_mower_seller,,,,Snickaregatan,1,54351,Tibro,"Snickaregatan 1, 54351 Tibro"
+way/428631099,Granngården,http://www.granngarden.se/,https://www.openstreetmap.org/way/428631099,58.5562543,12.3502033,robot_mower_seller,,,,,,,,
+way/436726258,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/way/436726258,59.1972246,18.1201462,robot_mower_seller,,,,Fräsarvägen,19,142 50,Skogås,"Fräsarvägen 19, 142 50 Skogås"
+way/457492308,Optimera,https://www.optimera.se/bygghandel/proffs/v%C3%A5ra-butiker/byggvaruhus-vagnh%C3%A4rad,https://www.openstreetmap.org/way/457492308,58.9543459,17.4877063,robot_mower_seller,,,,,,,,
+way/471550670,Plantagen,http://www.plantagen.se,https://www.openstreetmap.org/way/471550670,63.8552518,20.3003276,robot_mower_seller,,,,Gräddvägen,3 A,90620,Umeå,"Gräddvägen 3 A, 90620 Umeå"
+way/482599741,Granngården,http://www.granngarden.se/store/Horred,https://www.openstreetmap.org/way/482599741,57.356587,12.481071,robot_mower_seller,,,,,,,,
+way/482614696,Trollenäs Lantmannaaffär,http://www.trollenas.se,https://www.openstreetmap.org/way/482614696,55.8580799,13.2411329,robot_mower_seller,,,,,,,,
+way/482616298,Värö Lantmän,http://www.varolantman.se,https://www.openstreetmap.org/way/482616298,57.2503575,12.1836126,robot_mower_seller,,,,,,,,
+way/489071768,Backaryds Trädgårds & Lantbrukstjänst,https://www.yourvismawebsite.com/backaryds-tradgards-lantbrukstjanst,https://www.openstreetmap.org/way/489071768,56.3406595,15.1604733,robot_mower_seller,,,,,,,,
+way/491443458,Biltema,https://www.biltema.se/sv/varuhus/Sisjon/,https://www.openstreetmap.org/way/491443458,57.6436336,11.9546205,robot_mower_seller,,,,Södra Långebergsgatan,15,436 32,,"Södra Långebergsgatan 15, 436 32"
+way/491443461,Bauhaus,https://www.bauhaus.se/varuhus/sisjon,https://www.openstreetmap.org/way/491443461,57.6425053,11.9542488,robot_mower_seller,,,,Södra Långebergsgatan,21,436 32,Askim,"Södra Långebergsgatan 21, 436 32 Askim"
+way/493043613,Woody bygghandel,https://www.woody.se/,https://www.openstreetmap.org/way/493043613,56.2324146,15.2569644,robot_mower_seller,,,,,,,,
+way/493211781,Granngården,http://www.granngarden.se/store/Mariestad,https://www.openstreetmap.org/way/493211781,58.6950348,13.8176863,robot_mower_seller,,,,,,,,
+way/497754617,Nya Hallabro Rostfria,https://hallabrorostfria.se/,https://www.openstreetmap.org/way/497754617,56.388306,15.1048828,robot_mower_seller,,,,Ronnebyvägen 33,,,,Ronnebyvägen 33
+way/503019420,Burseryds Lantmän,http://www.burserydslantman.se/,https://www.openstreetmap.org/way/503019420,57.191868,13.280461,robot_mower_seller,,,,Vidkundsvägen,1,330 26,Burseryd,"Vidkundsvägen 1, 330 26 Burseryd"
+way/503072880,Blomsterlandet,https://www.blomsterlandet.se/hitta-din-butik/uppsala-granby/,https://www.openstreetmap.org/way/503072880,59.8857478,17.6689077,robot_mower_seller,,,,Takpannegatan,16,754 60,Uppsala,"Takpannegatan 16, 754 60 Uppsala"
+way/509412459,Drivhuset,https://www.drivhusetilovstabruk.se/,https://www.openstreetmap.org/way/509412459,60.4081213,17.8803642,robot_mower_seller,,,,,,,,
+way/512265283,Funbo Plantskola,http://www.funboplantskola.se,https://www.openstreetmap.org/way/512265283,59.8548883,17.8265598,robot_mower_seller,,,,Framtidsvägen,1,755 97,Gunsta,"Framtidsvägen 1, 755 97 Gunsta"
+way/518690918,Kode trä,https://kodetra.woody.se/,https://www.openstreetmap.org/way/518690918,57.9421686,11.8534691,robot_mower_seller,,,,,,,,
+way/525678868,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/way/525678868,56.1786545,14.848753,robot_mower_seller,,,,,,,,
+way/528862621,jem & fix,https://www.jemfix.se,https://www.openstreetmap.org/way/528862621,57.4977762,12.6696308,robot_mower_seller,,,,,,,,
+way/546538321,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/way/546538321,57.7544238,14.1597441,robot_mower_seller,,,,Instrumentvägen,4,,Jönköping,"Instrumentvägen 4, Jönköping"
+way/546540561,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/way/546540561,57.1782761,14.0077229,robot_mower_seller,,,,Silkesvägen,32,,,Silkesvägen 32
+way/547157131,Byggmax,https://www.byggmax.se/butiker/v%C3%A4stervik,https://www.openstreetmap.org/way/547157131,57.7651149,16.6038812,robot_mower_seller,,,,,,,,
+way/575635966,jem & fix,https://www.jemfix.se/butiker/vimmerby/,https://www.openstreetmap.org/way/575635966,57.6684372,15.8478908,robot_mower_seller,,,,Fiskaregatan,3,598 37,Vimmerby,"Fiskaregatan 3, 598 37 Vimmerby"
+way/594265237,Jula,https://www.jula.se/vara-varuhus/skovde/,https://www.openstreetmap.org/way/594265237,58.4092422,13.8802566,robot_mower_seller,,,,Jonstorpsgatan,5,54166,Skövde,"Jonstorpsgatan 5, 54166 Skövde"
+way/594265238,Elgiganten,https://www.elgiganten.se/INTERSHOP/web/WFS/store-elgigantenSE-Site/sv_SE/-/SEK/ViewStoreFinder-Start?mapStore=2DIKeQuvsPsAAAEoNoE7Uj8P,https://www.openstreetmap.org/way/594265238,58.408945,13.8816747,robot_mower_seller,,,,Jonstorpsgatan,5,54166,Skövde,"Jonstorpsgatan 5, 54166 Skövde"
+way/606513433,XL-bygg,http://lidkoping.xlbygg.se,https://www.openstreetmap.org/way/606513433,58.4881201,13.1953226,robot_mower_seller,,,,Kartåsgatan,9,53140,Lidköping,"Kartåsgatan 9, 53140 Lidköping"
+way/620540602,Millesons Handelsträdgård,http://www.millesons.se,https://www.openstreetmap.org/way/620540602,57.3951957,12.0102886,robot_mower_seller,,,,,,,,
+way/636405955,Granngården,https://www.granngarden.se/,https://www.openstreetmap.org/way/636405955,58.3118441,14.2882774,robot_mower_seller,,,,Industrigatan,35,54450,Hjo,"Industrigatan 35, 54450 Hjo"
+way/647768381,Biltema,https://www.biltema.se/varuhus-och-oppettider/hudiksvall,https://www.openstreetmap.org/way/647768381,61.7157901,17.0468163,robot_mower_seller,,,,Medskog Norra,4,824 91,Hudiksvall,"Medskog Norra 4, 824 91 Hudiksvall"
+way/690316338,Tinas Trädgård,https://tinastradgard.se/,https://www.openstreetmap.org/way/690316338,58.7120451,14.129902,robot_mower_seller,,,,Haddebodavägen,13,545 34,Töreboda,"Haddebodavägen 13, 545 34 Töreboda"
+way/694582582,Bt JÄRn O Maskin Ab,https://btjarn.se,https://www.openstreetmap.org/way/694582582,56.5557196,14.1491746,robot_mower_seller,,,,Baldersgatan,5,343 31,Älmhult,"Baldersgatan 5, 343 31 Älmhult"
+way/697150538,Rusta,https://www.rusta.se,https://www.openstreetmap.org/way/697150538,59.4883762,18.2767443,robot_mower_seller,,,,Korsgärdesvägen,1B,184 41,Åkersberga,"Korsgärdesvägen 1B, 184 41 Åkersberga"
+way/698759929,Nelson Garden,https://www.nelsongarden.se/,https://www.openstreetmap.org/way/698759929,56.5183045,14.9918395,robot_mower_seller,,,,,,,,
+way/701685973,Blomsterlandet,https://www.blomsterlandet.se/Hitta-butik/Stockholm-Veddesta/,https://www.openstreetmap.org/way/701685973,59.4102561,17.8444476,robot_mower_seller,,,,Nettovägen,4,175 41,Järfälla,"Nettovägen 4, 175 41 Järfälla"
+way/709212070,Beijer Bygg,https://www.beijerbygg.se/privat/sv/urshult,https://www.openstreetmap.org/way/709212070,56.5309771,14.8149057,robot_mower_seller,,,,Södravägen,9,362 54,Urshult,"Södravägen 9, 362 54 Urshult"
+way/745543228,Hornbach,https://www.hornbach.se/varuhusinfo/hornbach-boras/,https://www.openstreetmap.org/way/745543228,57.7165401,12.8867337,robot_mower_seller,,,,Sandlidsgatan,1M,504 62,Borås,"Sandlidsgatan 1M, 504 62 Borås"
+way/759547515,HORNBACH,https://www.hornbach.se/,https://www.openstreetmap.org/way/759547515,59.378857,17.9571819,robot_mower_seller,,,,,,,,
+way/772247062,Lundsbrunns handelsträdgård,https://kellgren.se,https://www.openstreetmap.org/way/772247062,58.4784414,13.4488589,robot_mower_seller,,,,Brunnsvägen,4,53372,Lundsbrunn,"Brunnsvägen 4, 53372 Lundsbrunn"
+way/784828635,Gamla Jernboden,https://gamlajernboden.se/,https://www.openstreetmap.org/way/784828635,56.2323622,15.2664513,robot_mower_seller,,,,Omloppsvägen,13,37252,Kallinge,"Omloppsvägen 13, 37252 Kallinge"
+way/796376679,Garageport Experten,https://www.garageportexperten.se/ronneby/,https://www.openstreetmap.org/way/796376679,56.2320279,15.2643091,robot_mower_seller,,,,,,,,
+way/833749813,Byggmax,https://www.byggmax.se/butiker/kumla,https://www.openstreetmap.org/way/833749813,59.1537741,15.1352605,robot_mower_seller,,,,Företagsgatan,12,69271,Kumla,"Företagsgatan 12, 69271 Kumla"
+way/835443806,jem & fix,https://www.jemfix.se,https://www.openstreetmap.org/way/835443806,60.2880508,15.9886637,robot_mower_seller,,,,Ivarshyttevägen,7A,776 33,Hedemora,"Ivarshyttevägen 7A, 776 33 Hedemora"
+way/838056452,Biltema,https://www.biltema.se/,https://www.openstreetmap.org/way/838056452,59.4964248,17.9216794,robot_mower_seller,,,,Stockholmsvägen,39,19461,Upplands Väsby,"Stockholmsvägen 39, 19461 Upplands Väsby"
+way/843219481,Byggmax,https://www.byggmax.se/butiker/ronneby,https://www.openstreetmap.org/way/843219481,56.2311974,15.2643885,robot_mower_seller,,,,,,,,
+way/852191650,Gryts Handelsträdgård,https://www.grytshandelstradgard.se/,https://www.openstreetmap.org/way/852191650,58.1897788,16.7998088,robot_mower_seller,,,,Rågeterdalsvägen,7,615 96,Gryt,"Rågeterdalsvägen 7, 615 96 Gryt"
+way/890786801,Öbergs Plantskola,http://www.obergs.se/,https://www.openstreetmap.org/way/890786801,58.3800011,13.6647162,robot_mower_seller,,,,Öbergs Plantskola,,532 73,Varnhem,"Öbergs Plantskola, 532 73 Varnhem"
+way/894186146,Annicas Handelsträdgård Piteå,https://www.annicashandelstradgard.se/,https://www.openstreetmap.org/way/894186146,65.322176,21.4103978,robot_mower_seller,,,,Taktvägen,5,94332,Öjebyn,"Taktvägen 5, 94332 Öjebyn"
+way/907037322,Elgiganten,https://www.elgiganten.se/stores/blekinge-lan/lyckeby/karlskrona,https://www.openstreetmap.org/way/907037322,56.1965503,15.6472285,robot_mower_seller,,,,Stationsvägen,29,37162,Lyckeby,"Stationsvägen 29, 37162 Lyckeby"
+way/907037349,Clas Ohlson,https://www.clasohlson.com/,https://www.openstreetmap.org/way/907037349,56.1963767,15.6425159,robot_mower_seller,,,,,,,,
+way/907179425,Jula,https://www.jula.se/,https://www.openstreetmap.org/way/907179425,59.2168342,15.1393432,robot_mower_seller,,,,,,,,
+way/936621037,jem & fix,https://www.jemfix.se/hitta-butik/falun/,https://www.openstreetmap.org/way/936621037,60.5752858,15.6101677,robot_mower_seller,,,,Stortallsvägen,2A,791 55,Falun,"Stortallsvägen 2A, 791 55 Falun"
+way/969576240,Beijer Byggmaterial,https://www.beijerbygg.se/store/privat/v%C3%A5ra-byggvaruhus/karlshamn,https://www.openstreetmap.org/way/969576240,56.1741449,14.837954,robot_mower_seller,,,,,,,,
+way/1001458110,Rosehills;Rosehills Blommor,https://rosehills.se/,https://www.openstreetmap.org/way/1001458110,61.8272547,16.076439,robot_mower_seller,,,,Lantmätargatan,4,,Ljusdal,"Lantmätargatan 4, Ljusdal"
+way/1002146335,Jula,https://www.jula.se/vara-varuhus/falkoping/,https://www.openstreetmap.org/way/1002146335,58.1466061,13.5611889,robot_mower_seller,,,,Gunnestorpsgatan,9,,,Gunnestorpsgatan 9
+way/1012227705,Hus till hus,https://www.hustillhus.se/,https://www.openstreetmap.org/way/1012227705,57.9421786,12.556676,robot_mower_seller,,,,,,,,
+way/1020012625,Jula,https://www.jula.se/vara-varuhus/karlskoga/,https://www.openstreetmap.org/way/1020012625,59.3003042,14.497151,robot_mower_seller,,,,Finnebäcksvägen,4,69147,Karlskoga,"Finnebäcksvägen 4, 69147 Karlskoga"
+way/1087922243,Hysingsvik blommor,https://www.facebook.com/Hysingsviksblommor/,https://www.openstreetmap.org/way/1087922243,59.6813606,18.7488266,robot_mower_seller,,,,Furusundsvägen,97,,,Furusundsvägen 97
+way/1107810492,Waso Maskinuthyrning,https://wasomaskin.se/ronneby/,https://www.openstreetmap.org/way/1107810492,56.2317548,15.2675098,robot_mower_seller,,,,,,,,
+way/1131605337,Växtverket,https://vaxtverket.com/,https://www.openstreetmap.org/way/1131605337,57.6896702,11.9114408,robot_mower_seller,,,,,,,,
+way/1143826680,Bjärhus Växtbutik,https://bjarhusvaxtbutik.se/,https://www.openstreetmap.org/way/1143826680,56.1324416,13.2041326,robot_mower_seller,,,,Bjärhus,7738,,Klippan,"Bjärhus 7738, Klippan"
+way/1172466836,Byggmax,https://www.byggmax.se/,https://www.openstreetmap.org/way/1172466836,58.321669,15.0917635,robot_mower_seller,,,,Stridslyckegatan,4B,59535,Mjölby,"Stridslyckegatan 4B, 59535 Mjölby"
+way/1190682530,Rotens Trädgård,https://rotenstradgard.se,https://www.openstreetmap.org/way/1190682530,60.7378689,15.4572953,robot_mower_seller,,,,Skovägen,8,790 21,Bjursås,"Skovägen 8, 790 21 Bjursås"
+way/1191531973,Bolist,https://bolist.se/butiker/bolistbelganet/,https://www.openstreetmap.org/way/1191531973,56.3873619,15.0353229,robot_mower_seller,,,,,,,,
+way/1308445876,Byggnadssnickerier i Krokom AB,https://byggnadssnickerier.com/,https://www.openstreetmap.org/way/1308445876,63.3257101,14.4706971,robot_mower_seller,,,,Hissmoforsvägen,55,835 33,KROKOM,"Hissmoforsvägen 55, 835 33 KROKOM"
+way/1308507922,Biltema,https://www.biltema.se/varuhus-och-oppettider/nykoping/,https://www.openstreetmap.org/way/1308507922,58.7697237,17.0137457,robot_mower_seller,,,,Gustafsbergsstigen,22A,611 67,Nyköping,"Gustafsbergsstigen 22A, 611 67 Nyköping"
+way/1373168778,Bauhaus,https://www.bauhaus.se/varuhus/umea,https://www.openstreetmap.org/way/1373168778,63.8550388,20.2948469,robot_mower_seller,,,,Skalbaggevägen,5,90620,Umeå,"Skalbaggevägen 5, 90620 Umeå"
+relation/6080093,Bäsna Trädgård,https://www.basnatradgard.nu/,https://www.openstreetmap.org/relation/6080093,60.5331604,15.2019624,robot_mower_seller,,,,Kjesgattu,10,781 95,Borlänge,"Kjesgattu 10, 781 95 Borlänge"
+relation/10997313,XL Bygg,https://www.xlbygg.se/ronneby/,https://www.openstreetmap.org/relation/10997313,56.2406867,15.2648348,robot_mower_seller,,,,Västervägen,5,37252,Kallinge,"Västervägen 5, 37252 Kallinge"
